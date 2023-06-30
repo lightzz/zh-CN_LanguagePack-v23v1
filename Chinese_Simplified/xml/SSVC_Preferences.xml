@@ -1,8 +1,8 @@
-﻿<export>
- <Item type="SSVC_Preferences" keyed_name="860853CB7F3E44649AD4FC4F443F35A7" config_id="860853CB7F3E44649AD4FC4F443F35A7">
-  <property __name="subject_digest_notifications" en="[Aras] Visual Collaboration Notification – new messages" zc="" />
-  <property __name="subject_single_notifications" en="[Aras] Visual Collaboration Notification – new message" zc="" />
-  <property __name="desc_digest_notifications" en="The following new messages have posted in your discussions:" zc="" />
-  <property __name="desc_single_notifications" en="The following new message has posted in your discussions:" zc="" />
- </Item>
+<export>
+  <Item type="SSVC_Preferences" keyed_name="860853CB7F3E44649AD4FC4F443F35A7" config_id="860853CB7F3E44649AD4FC4F443F35A7">
+    <property __name="subject_digest_notifications" en="[Aras] Visual Collaboration Notification – new messages" zc="[Aras]视觉协作通知-新消息" />
+    <property __name="subject_single_notifications" en="[Aras] Visual Collaboration Notification – new message" zc="视觉协作通知-新消息" />
+    <property __name="desc_digest_notifications" en="The following new messages have posted in your discussions:" zc="以下是在你们讨论中发布的新消息:" />
+    <property __name="desc_single_notifications" en="The following new message has posted in your discussions:" zc="以下是在你们讨论中发布的新消息:" />
+  </Item>
 </export>
