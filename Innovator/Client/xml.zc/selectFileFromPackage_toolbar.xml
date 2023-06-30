@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="toolbar">
-		<button image="../images/ExecuteSearch.svg" id="search" tooltip="Run Search" text="Search"/>
-		<button image="../images/ClearSearchCriteria.svg" id="clear" tooltip="Clear Search Criteria" text="Clear Criteria"/>
-		<separator/>
-		<edit id="page_size" tooltip="Page Size" text="25" size="3"/>
-		<button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="Previous Page" text="Previous Page"/>
-		<button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="Next Page" text="Next Page"/>
-		<separator/>
-		<button image="../images/Checkmark.svg" id="select" tooltip="Select">Select</button>
-	</toolbar>
+  <toolbar id="toolbar">
+    <button image="../images/ExecuteSearch.svg" id="search" tooltip="运行搜索" text="Search" />
+    <button image="../images/ClearSearchCriteria.svg" id="clear" tooltip="清晰的搜索条件" text="Clear Criteria" />
+    <separator />
+    <edit id="page_size" tooltip="页大小" text="25" size="3" />
+    <button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="上一页" text="上一页" />
+    <button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="下一页" text="下一页" />
+    <separator />
+    <button image="../images/Checkmark.svg" id="select" tooltip="选择">选择</button>
+  </toolbar>
 </toolbarapplet>

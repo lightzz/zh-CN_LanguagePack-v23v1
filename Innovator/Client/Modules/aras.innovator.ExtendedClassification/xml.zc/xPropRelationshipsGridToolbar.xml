@@ -6,16 +6,16 @@
             <choiceitem>No Related</choiceitem>
             <choiceitem>Create Related</choiceitem>
         </choice>
-        <button disabled="true" image="../images/New.svg" id="new" tooltip="New relationship" text="New relationship"/>
+        <button disabled="true" image="../images/New.svg" id="new" tooltip="新建关系类" text="新建"/>
         <separator/>
-        <button disabled="true" image="../images/Delete.svg" id="delete" tooltip="Delete relationship" text="Delete relationship"/>
+        <button disabled="true" image="../images/Delete.svg" id="delete" tooltip="删除关系类" text="删除"/>
         <separator/>
-        <button image="../images/ExportToExcel.svg" id="export2Excel" tooltip="Export To Excel" text="Export To Excel" disabled="false"/>
-        <button image="../images/ExportToWord.svg" id="export2Word" tooltip="Export To Word" text="Export To Word" disabled="false"/>
+        <button image="../images/ExportToExcel.svg" id="export2Excel" tooltip="导出至Excel" text="导出至Excel" disabled="false"/>
+        <button image="../images/ExportToWord.svg" id="export2Word" tooltip="导出到Word" text="导出到Word" disabled="false"/>
         <separator/>
-        <button image="../images/ViewItem.svg" id="show_item" tooltip="View item" text="View"/>
+        <button image="../images/ViewItem.svg" id="show_item" tooltip="查看对象" text="查看"/>
         <separator/>
-        <button disabled="true" image="../images/MoveUpActive.svg" id="move_up" tooltip="Move up" text="Move up"/>
-        <button disabled="true" image="../images/MoveDownActive.svg" id="move_down" tooltip="Move down" text="Move down"/>
+        <button disabled="true" image="../images/MoveUpActive.svg" id="move_up" tooltip="向上" text="向上"/>
+        <button disabled="true" image="../images/MoveDownActive.svg" id="move_down" tooltip="向下" text="向下"/>
     </toolbar>
 </toolbarapplet>

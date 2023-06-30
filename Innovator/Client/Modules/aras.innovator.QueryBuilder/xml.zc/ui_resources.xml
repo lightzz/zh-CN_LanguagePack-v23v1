@@ -1,66 +1,66 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<resource key="tree.empty_root" value="Empty Query Definition"/>
-	<resource key="error_wrong_configuration_qry_def" value="Invalid Query Definition Configuration"/>
-	<resource key="parameters_dialog_title" value="Query Parameters"/>
-	<resource key="item.action.execute_in_tearoff.warning" value="This action should be executed from the Item Window Actions Menu. It cannot be executed from the Main Window."/>
-	<!-- Actions -->
-	<resource key="action.add" value="Add Related Item"/>
-	<resource key="action.manage" value="Edit Query Element"/>
-	<resource key="action.changename" value="Change Alias"/>
-	<resource key="action.reuse" value="Reuse Query Element Definition"/>
-	<resource key="action.removeitem" value="Remove Item"/>
-	<resource key="action.removeitem_confirm" value="Do you want to delete &quot;{0}&quot; and all Child Query Elements?"/>
-	<!-- Execution -->
-	<resource key="execution.start" value="Start Execution..."/>
-	<resource key="execution.submit_btn" value="Execute"/>
-	<resource key="execution.exit" value="Cancel"/>
-	<resource key="execution.title_checking_dialog" value="Start Execution..."/>
-	<resource key="execution.title_query_result_dialog" value="Query Result"/>
-	<resource key="execution.processing" value="Processing..."/>
-	<resource key="execution.resultAsFile" value="Result as File"/>
-	<resource key="execution.outputFormat" value="Output format"/>
-	<resource key="execution.structuredFormat" value="Structured"/>
-	<resource key="execution.flatFormat" value="Flat"/>
-	<!-- Add -->
-	<resource key="action.add.property" value="Using Item Property..."/>
-	<resource key="action.add.property.in.dialog" value="Add Related Item Using Item Property"/>
-	<resource key="action.add.relationship" value="Using Relationship..."/>
-	<resource key="action.add.relationship.in.dialog" value="Add Related Item Using Relationship"/>
-	<resource key="action.add.whereused" value="Using Referencing Item..."/>
-	<resource key="action.add.whereused.in.dialog" value="Add Related Item Using Referencing Item"/>
-	<resource key="action.add.reuse_button" value="Add"/>
-	<resource key="action.add.include_related" value="Include Related"/>
-	<!-- Manage -->
-	<resource key="action.manage.selectedprops" value="Selected Properties..."/>
-	<resource key="action.manage.selectedprops_title" value="Properties"/>
-	<resource key="action.manage.condition" value="Condition..."/>
-	<resource key="action.manage.sortorder" value="Sort Order..."/>
-	<resource key="action.manage.sortorder_order" value="Order"/>
-	<resource key="action.manage.sortorder_property" value="Property"/>
-	<resource key="action.manage.sortorder_direction" value="Direction"/>
-	<resource key="action.manage.sortorder_asc" value="(Ascending)"/>
-	<resource key="action.manage.sortorder_desc" value="(Descending)"/>
-	<resource key="action.manage.add_property" value="Add Property"/>
-	<!-- Condition Editor -->
-	<resource key="condition_editor.reference_path_from" value="Reference Path Through {0} ({1})"/>
-	<resource key="condition_editor.reference_id_from" value="Reference Id From {0} ({1})"/>
-	<resource key="condition_editor.save" value="Save"/>
-	<resource key="condition_editor.cancel" value="Cancel"/>
-	<resource key="condition_editor.join_condition_title" value="Join Condition"/>
-	<resource key="condition_editor.where_condition_title" value="Where Condition"/>
-	<resource key="condition_editor.invalid_property_name" value="Invalid property name: {0}"/>
-	<resource key="condition_editor.invalid_method_name" value="Invalid method name: {0}"/>
-	<resource key="condition_editor.invalid_method_arguments_count" value="Invalid number of method arguments"/>
-	<resource key="condition_editor.invalid_method_argument_type" value="Invalid method argument type: {0}"/>
-	<!-- Select Item Dialog -->
-	<resource key="error_nothing_selected" value="Nothing selected."/>
-	<resource key="property_search_label" value="Find property to add:"/>
-	<resource key="referencing_item_search_label" value="Find referencing item to add:"/>
-	<!--Validation-->
-	<resource key="broken_references.qry_reference" value="A row with Alias '{0}' cannot be shown because it has invalid properties. The invalid Properties: '{1}'."/>
-	<resource key="broken_references.property" value="A row with Alias '{0}' has broken reference(s) in Properties list. The broken Reference Id(s): '{1}'."/>
-	<resource key="broken_references.order" value="A row with Alias '{0}' has broken reference(s) in Orders list. The broken Reference Id(s): '{1}'."/>
-	<resource key="broken_references.condition" value="A row with Alias '{0}' has broken reference(s) in Condition list. The broken Reference Id(s): '{1}'."/>
-	<resource key="invalid_item_property" value="Some properties are invalid. Please see more details in the editor."/>
+  <resource key="tree.empty_root" value="空查询定义" />
+  <resource key="error_wrong_configuration_qry_def" value="无效的查询定义配置" />
+  <resource key="parameters_dialog_title" value="查询参数" />
+  <resource key="item.action.execute_in_tearoff.warning" value="此操作应从项目窗口操作菜单中执行。 它不能从主窗口执行。" />
+  <!-- Actions -->
+  <resource key="action.add" value="添加相关项目" />
+  <resource key="action.manage" value="编辑查询元素" />
+  <resource key="action.changename" value="更改别名" />
+  <resource key="action.reuse" value="重用查询元素定义" />
+  <resource key="action.removeitem" value="移除对象" />
+  <resource key="action.removeitem_confirm" value="您确定要和所有子查询元素一起删除吗 &quot;{0}&quot; ?" />
+  <!-- Execution -->
+  <resource key="execution.start" value="开始执行..." />
+  <resource key="execution.submit_btn" value="执行" />
+  <resource key="execution.exit" value="取消" />
+  <resource key="execution.title_checking_dialog" value="开始执行..." />
+  <resource key="execution.title_query_result_dialog" value="查询结果" />
+  <resource key="execution.processing" value="处理..." />
+  <resource key="execution.resultAsFile" value="结果文件" />
+  <resource key="execution.outputFormat" value="输出格式" />
+  <resource key="execution.structuredFormat" value="结构化" />
+  <resource key="execution.flatFormat" value="平格式" />
+  <!-- Add -->
+  <resource key="action.add.property" value="使用对象属性..." />
+  <resource key="action.add.property.in.dialog" value="使用对象属性添加相关对象" />
+  <resource key="action.add.relationship" value="使用关系对象..." />
+  <resource key="action.add.relationship.in.dialog" value="使用关系对象添加相关对象" />
+  <resource key="action.add.whereused" value="使用引用对象..." />
+  <resource key="action.add.whereused.in.dialog" value="使用引用对象添加相关对象" />
+  <resource key="action.add.reuse_button" value="添加" />
+  <resource key="action.add.include_related" value="包括相关" />
+  <!-- Manage -->
+  <resource key="action.manage.selectedprops" value="选择属性..." />
+  <resource key="action.manage.selectedprops_title" value="属性" />
+  <resource key="action.manage.condition" value="条件..." />
+  <resource key="action.manage.sortorder" value="排序..." />
+  <resource key="action.manage.sortorder_order" value="顺序" />
+  <resource key="action.manage.sortorder_property" value="属性" />
+  <resource key="action.manage.sortorder_direction" value="方向" />
+  <resource key="action.manage.sortorder_asc" value="(升序)" />
+  <resource key="action.manage.sortorder_desc" value="(降序)" />
+  <resource key="action.manage.add_property" value="添加属性" />
+  <!-- Condition Editor -->
+  <resource key="condition_editor.reference_path_from" value="参考路径 {0} ({1})" />
+  <resource key="condition_editor.reference_id_from" value="参考 ID 来自 {0} ({1})" />
+  <resource key="condition_editor.save" value="保存" />
+  <resource key="condition_editor.cancel" value="取消" />
+  <resource key="condition_editor.join_condition_title" value="加入条件" />
+  <resource key="condition_editor.where_condition_title" value="条件" />
+  <resource key="condition_editor.invalid_property_name" value="无效的属性名称: {0}" />
+  <resource key="condition_editor.invalid_method_name" value="无效的方法名:{0}" />
+  <resource key="condition_editor.invalid_method_arguments_count" value="无效的方法参数数" />
+  <resource key="condition_editor.invalid_method_argument_type" value="无效方法参数类型:{0}" />
+  <!-- Select Item Dialog -->
+  <resource key="error_nothing_selected" value="没有选择" />
+  <resource key="property_search_label" value="查找要添加的属性：" />
+  <resource key="referencing_item_search_label" value="查找要添加的引用项:" />
+  <!--Validation-->
+  <resource key="broken_references.qry_reference" value="具有别名'{0}' 无法显示，因为它具有无效的属性。 无效的属性： '{1}'." />
+  <resource key="broken_references.property" value="具有别名 '{0}' 在属性列表中有损坏的引用。 损坏的参考 ID： '{1}'." />
+  <resource key="broken_references.order" value="具有别名'{0}' 在订单列表中有损坏的参考。 损坏的参考 ID： '{1}'." />
+  <resource key="broken_references.condition" value="具有别名 '{0}' 的行在条件列表中已损坏引用。 损坏的参考 ID: '{1}'." />
+  <resource key="invalid_item_property" value="某些属性无效。 请在编辑器中查看更多详细信息。" />
 </ui_resources>

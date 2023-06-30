@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-    <resource key="destination_path" value="Destination Path"/>
-    <resource key="derived_relationship" value="Derived Relationship"/>
-    <resource key="persistence_status" value="Persistence Status"/>
-    <resource key="persistence_complete" value="Departure Items Persisted"/>
-    <resource key="persistence_items" value="Departure Items Total Count"/>
-    <resource key="persistence_start" value="Start"/>
-    <resource key="persistence_end" value="End"/>
-    <resource key="persistence_errors" value="Errors"/>
-    <resource key="remediation_form_title" value="Departures to Remediate"/>
-    <resource key="remediation_form.all_option" value="All"/>
-    <resource key="remediation_form.particular_option" value="Particular Departures"/>
-    <resource key="unused_derived_relationships_error_msg" value="Some Derived Relationships are unused. You should either map them in the Tree Grid Editor or remove them. The unused Derived Relationships are: {0}."/>
+  <resource key="destination_path" value="目的地的路径" />
+  <resource key="derived_relationship" value="派生的关系" />
+  <resource key="persistence_status" value="持久化状态" />
+  <resource key="persistence_complete" value="离开项目持续" />
+  <resource key="persistence_items" value="出境项目总数" />
+  <resource key="persistence_start" value="开始" />
+  <resource key="persistence_end" value="结束" />
+  <resource key="persistence_errors" value="错误" />
+  <resource key="remediation_form_title" value="离职要矫正" />
+  <resource key="remediation_form.all_option" value="所有" />
+  <resource key="remediation_form.particular_option" value="特定的离职" />
+  <resource key="unused_derived_relationships_error_msg" value="一些派生关系是未使用的。您应该在树网格编辑器中映射它们或删除它们。未使用的派生关系是:{0}。" />
 </ui_resources>

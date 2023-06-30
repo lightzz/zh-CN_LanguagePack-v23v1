@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <toolbarapplet buttonsize="26,25" font="Arial-8">
-	<toolbar id="searchbar">
-		<button image="../images/ExecuteSearch.svg" id="search" tooltip="Run Search">Search</button>
-		<separator/>
-		<edit id="page_size" label="Page Size:" text="100" size="3"/>
-		<button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="Previous Page">Prev page</button>
-		<button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="Next Page">Next page</button>
-		<separator/>
-		<button disabled="true" image="../images/SelectAll.svg" id="select_all" tooltip="Select all items"/>
-		<button disabled="true" image="../images/Delete.svg" id="delete" tooltip="Delete selected items"/>
-	</toolbar>
+  <toolbar id="searchbar">
+    <button image="../images/ExecuteSearch.svg" id="search" tooltip="运行搜索">搜索</button>
+    <separator />
+    <edit id="page_size" label="页面大小:" text="100" size="3" />
+    <button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="前一页">Prev页面</button>
+    <button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="下一个页面">下一个页面</button>
+    <separator />
+    <button disabled="true" image="../images/SelectAll.svg" id="select_all" tooltip="选择所有项" />
+    <button disabled="true" image="../images/Delete.svg" id="delete" tooltip="删除选定的项目" />
+  </toolbar>
 </toolbarapplet>

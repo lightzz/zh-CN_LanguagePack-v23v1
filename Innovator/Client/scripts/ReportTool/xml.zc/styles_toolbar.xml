@@ -6,18 +6,10 @@
 ' Purpose: This is the table tool bar for the Designer page.
 '
 -->
-<toolbarapplet
-  on_click      = "onClickItem"
-  on_load       = "onToolbarLoad"
-  buttonstyle   = "windows"
-  buttonsize    = "22,22"
-  font          = "Arial-12"
-  bottom_border = "1">
-
+<toolbarapplet on_click="onClickItem" on_load="onToolbarLoad" buttonstyle="windows" buttonsize="22,22" font="Arial-12" bottom_border="1">
   <toolbar id="normal">
-    <button image="../scripts/ReportTool/images/16x16_newStyle.gif" id="new-style" tooltip="New Style">New Style  </button>
-    <separator/>
-    <button image="../scripts/ReportTool/images/16x16_deleteStyle.gif" id="del-style" tooltip="Delete Style">Delete Style  </button>
+    <button image="../scripts/ReportTool/images/16x16_newStyle.gif" id="new-style" tooltip="新风格">新风格</button>
+    <separator />
+    <button image="../scripts/ReportTool/images/16x16_deleteStyle.gif" id="del-style" tooltip="删除样式">删除样式</button>
   </toolbar>
-
 </toolbarapplet>

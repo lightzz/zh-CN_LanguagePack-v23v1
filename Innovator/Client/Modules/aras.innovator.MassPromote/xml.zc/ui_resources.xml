@@ -1,38 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<resource key="dropdown_select" value="Select..." />
-	<resource key="life_cycle_map" value="Life Cycle Map" />
-	<resource key="target_state" value="Target State" />
-	<resource key="comment" value="Comment" />
-	<resource key="type_comment_here" value="Type comment here" />
-	<resource key="all_invalid_items" value="Invalid Items" />
-	<resource key="move_to_another_promote_session" value="Move to another promote session" />
-	<resource key="remove_from_selection" value="Remove from selection" />
-	<resource key="apply" value="Apply" />
-	<resource key="ready_to_execute" value="Ready to Execute" />
-	<resource key="all_items_valid" value="All Items Valid" />
-	<resource key="resolve_conflicts" value="Resolve Conflicts" />
-	<resource key="no_life_cycle_map" value="No Life Cycle Map" />
-	<resource key="invalid_items_found" value=" Invalid Items Found" />
-	<resource key="no_promotion_path_to_target_state" value="No Promotion Path to Target State" />
-	<resource key="not_permitted_to_promote_to_target_state" value="Not Permitted to Promote to Target State" />
-	<resource key="item_locked_no_promotion_path_to_target_state" value="Item Locked, No Promotion Path to Target State" />
-	<resource key="item_locked" value="Item Locked" />
-	<resource key="new_item" value="New Item" />
-	<resource key="item_deleted" value="Item Deleted" />
-	<resource key="valid" value="Valid" />
-	<resource key="locked" value="Lock" />
-	<resource key="item" value="Item" />
-	<resource key="state" value="Current State" />
-	<resource key="status" value="Status/Error" />
-	<resource key="items" value="Items" />
-	<resource key="remove" value="Remove" />
-	<resource key="unlock" value="Unlock" />
-	<resource key="promote" value="Promote" />
-	<resource key="cancel_operation_before_promotion" value="Are you sure you want to cancel the operation?" />
-	<resource key="cancel_operation_during_promotion" value="If you cancel now then {0} items are promoted, {1} items have failed, and {2} items are still pending and will not be promoted.  OK to cancel?" />
-	<resource key="done" value="Done" />
-	<resource key="execute" value="Execute" />
-	<resource key="cancel" value="Cancel" />
-	<resource key="item_not_current" value="Item Not Current" />
+  <resource key="dropdown_select" value="选择..." />
+  <resource key="life_cycle_map" value="生命周期图" />
+  <resource key="target_state" value="目标状态" />
+  <resource key="comment" value="评论" />
+  <resource key="type_comment_here" value="在此处键入注释" />
+  <resource key="all_invalid_items" value="无效对象" />
+  <resource key="move_to_another_promote_session" value="移动到另一个升级会话" />
+  <resource key="remove_from_selection" value="从选择删除" />
+  <resource key="apply" value="引用" />
+  <resource key="ready_to_execute" value="准备执行" />
+  <resource key="all_items_valid" value="所有对象有效" />
+  <resource key="resolve_conflicts" value="解决冲突" />
+  <resource key="no_life_cycle_map" value="无生命周期图" />
+  <resource key="invalid_items_found" value=" 找到无效项目" />
+  <resource key="no_promotion_path_to_target_state" value="没有到目标状态的提升路径" />
+  <resource key="not_permitted_to_promote_to_target_state" value="不允许提升到目标状态" />
+  <resource key="item_locked_no_promotion_path_to_target_state" value="项已锁定，没有到目标状态的升级路径" />
+  <resource key="item_locked" value="对象已锁定" />
+  <resource key="new_item" value="新建对象" />
+  <resource key="item_deleted" value="项目已删除" />
+  <resource key="valid" value="有效" />
+  <resource key="locked" value="锁定" />
+  <resource key="item" value="对象" />
+  <resource key="state" value="当前状态" />
+  <resource key="status" value="状态/错误" />
+  <resource key="items" value="对象" />
+  <resource key="remove" value="删除" />
+  <resource key="unlock" value="解锁" />
+  <resource key="promote" value="提升" />
+  <resource key="cancel_operation_before_promotion" value="确实要取消操作吗?" />
+  <resource key="cancel_operation_during_promotion" value="如果现在取消，则{0}项被提升，{1}项失败，{2}项仍处于挂起状态，不会被提升。是否取消?" />
+  <resource key="done" value="完成" />
+  <resource key="execute" value="执行" />
+  <resource key="cancel" value="取消" />
+  <resource key="item_not_current" value="对象不是最新的" />
 </ui_resources>

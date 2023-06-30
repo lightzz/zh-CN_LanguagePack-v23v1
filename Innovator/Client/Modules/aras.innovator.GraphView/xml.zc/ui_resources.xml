@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<resource key="force_layout" value="Force"/>
-	<resource key="horizontal_layout" value="Horizontal"/>
-	<resource key="vertical_layout" value="Vertical"/>
-	<resource key="gvd_list.default" value="Default"/>
-	<resource key="invalid_json_message" value="Server returned invalid JSON structure."/>
-	<resource key="expand_menu.select_all" value="Select All"/>
-	<resource key="expand_menu.relationships" value="Relationships"/>
-	<resource key="expand_menu.relationships_not_found" value="Relationships not found"/>
-	<resource key="expand_menu.properties" value="Properties"/>
-	<resource key="expand_menu.properties_not_found" value="Properties not found"/>
-	<resource key="expand_menu.apply" value="Apply"/>
-	<resource key="expand_menu.cancel" value="Cancel"/>
+  <resource key="force_layout" value="力" />
+  <resource key="horizontal_layout" value="水平" />
+  <resource key="vertical_layout" value="垂直" />
+  <resource key="gvd_list.default" value="默认的" />
+  <resource key="invalid_json_message" value="服务器返回无效的JSON结构。" />
+  <resource key="expand_menu.select_all" value="选择所有" />
+  <resource key="expand_menu.relationships" value="的关系" />
+  <resource key="expand_menu.relationships_not_found" value="关系没有找到" />
+  <resource key="expand_menu.properties" value="属性" />
+  <resource key="expand_menu.properties_not_found" value="属性没有找到" />
+  <resource key="expand_menu.apply" value="应用" />
+  <resource key="expand_menu.cancel" value="取消" />
 </ui_resources>

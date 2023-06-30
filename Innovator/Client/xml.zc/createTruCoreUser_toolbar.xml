@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="toolbar">
-		<button image="../images/Checkmark.svg" id="create" tooltip="Create new user">Create new user</button>
-	</toolbar>
+  <toolbar id="toolbar">
+    <button image="../images/Checkmark.svg" id="create" tooltip="创建新用户">创建新用户</button>
+  </toolbar>
 </toolbarapplet>

@@ -1,22 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<toolbarapplet
-	on_click = "onClickItem"
-	on_load  = "onToolbarLoad"
-	buttonstyle = "windows"
-	buttonsize = "22,22"
-	font = "Arial-12"
-	top_border = "1"
-	bottom_border = "1">
-	<toolbar id="normal">
-		<button image="../images/Print.svg" id="print" tooltip="Print Item" disabled="true">Print </button>
-		<separator/>
-		<button image="../images/Delete.svg" id="delete" tooltip="Delete Item" disabled="true">Delete </button>
-		<separator/>
-		<button image="../images/LockItem.svg" id="lock" tooltip="Lock Item" disabled="true" >Lock </button>
-		<button image="../images/UnockItem.svg" id="unlock" tooltip="Unlock Item" disabled="true">Unlock </button>
-		<button image="../images/Rollback.svg" id="undo" tooltip="Undo Changes on Item" disabled="true">Undo </button>
-		<separator/>
-		<button image="../images/Save.svg" id="save" tooltip="Save" disabled="true" >Save </button>
-		<button image="../images/SaveUnlockClose.svg" id="save_unlock_close" tooltip="Save, Unlock &amp; Close" disabled="true">Save and Close </button>
-	</toolbar>
+<toolbarapplet on_click="onClickItem" on_load="onToolbarLoad" buttonstyle="windows" buttonsize="22,22" font="Arial-12" top_border="1" bottom_border="1">
+  <toolbar id="normal">
+    <button image="../images/Print.svg" id="print" tooltip="打印项" disabled="true">打印</button>
+    <separator />
+    <button image="../images/Delete.svg" id="delete" tooltip="删除项目" disabled="true">删除</button>
+    <separator />
+    <button image="../images/LockItem.svg" id="lock" tooltip="锁定项目" disabled="true">锁</button>
+    <button image="../images/UnockItem.svg" id="unlock" tooltip="打开项目" disabled="true">解锁</button>
+    <button image="../images/Rollback.svg" id="undo" tooltip="撤销对项目的更改" disabled="true">撤销</button>
+    <separator />
+    <button image="../images/Save.svg" id="save" tooltip="保存" disabled="true">保存</button>
+    <button image="../images/SaveUnlockClose.svg" id="save_unlock_close" tooltip="保存，解锁和关闭" disabled="true">保存并关闭</button>
+  </toolbar>
 </toolbarapplet>

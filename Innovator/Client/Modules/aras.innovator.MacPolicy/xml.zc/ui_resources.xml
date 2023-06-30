@@ -1,26 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<resource key="policy.single_user_mode_error" value="The number of active users is more than 1. Performing an action can get unpredictable results."/>
-	<resource key="policy.activate_successs" value="Policy {0} activated successfully"/>
-	<resource key="policy.deactivate_successs" value="Policy {0} deactivated successfully"/>
-	<resource key="policy.new_version_successs" value="New version of policy {0} created successfully"/>
-	<resource key="policy.used_condition_remove_warning" value="The condition you are trying to remove is used in one or more MAC Policy rules. Do you want to proceed?"/>
-	<resource key="policy.condition_remove_warning" value="Are you sure you want to delete {0}?"/>
-	<resource key="condition_editor.autocomplete.environment_attribute.meta" value="Environment Attribute"/>
-	<resource key="condition_editor.autocomplete.function.meta" value="function"/>
-	<resource key="condition_editor.autocomplete.item.meta" value="item"/>
-	<resource key="condition_editor.autocomplete.operator.meta" value="operations"/>
-	<resource key="condition_editor.autocomplete.property.type_info" value="Type: {0}"/>
-	<resource key="condition_editor.unsaved" value="Unsaved condition is in edit mode.\r\n Please save it before editing other conditions"/>
-	<resource key="condition_editor.delete_when_edit" value="Cannot delete condition which is editing now"/>
-	<resource key="condition_editor.validation_failed" value="Validation failed"/>
-	<resource key="condition_editor.name_is_exists" value="Rule with name '{0}' already exists"/>
-	<resource key="condition_editor.unknown_parameter" value="Used in condition parameter '${0}' is unknown"/>
-	<resource key="condition_editor.invalid_method_argument" value="Invalid &quot;{0}&quot; name &quot;{1}&quot; in method argument"/>
-	<resource key="condition_grid.contextmenu_edit" value="Edit"/>
-	<resource key="condition_grid.contextmenu_view" value="View"/>
-	<resource key="condition_grid.contextmenu_remove" value="Remove"/>
-	<resource key="condition_grid.error_in_condition" value="Error in condition"/>
-	<resource key="condition_grid.empty_grid" value="No Conditions. Please, create a new one."/>
-	<resource key="query_builder_dialog.title" value="Path To Target Property"/>
+  <resource key="policy.single_user_mode_error" value="活动用户数大于1。执行操作可能会得到不可预知的结果." />
+  <resource key="policy.activate_successs" value="策略{0}已成功激活" />
+  <resource key="policy.deactivate_successs" value="策略{0}已成功停用" />
+  <resource key="policy.new_version_successs" value="已成功创建策略{0}的新版本" />
+  <resource key="policy.used_condition_remove_warning" value="您尝试删除的条件用于一个或多个MAC策略规则。你想继续吗?" />
+  <resource key="policy.condition_remove_warning" value="确定要删除吗 {0}?" />
+  <resource key="condition_editor.autocomplete.environment_attribute.meta" value="环境属性" />
+  <resource key="condition_editor.autocomplete.function.meta" value="函数" />
+  <resource key="condition_editor.autocomplete.item.meta" value="项" />
+  <resource key="condition_editor.autocomplete.operator.meta" value="操作" />
+  <resource key="condition_editor.autocomplete.property.type_info" value="类型:{0}" />
+  <resource key="condition_editor.unsaved" value="未保存的条件处于编辑模式.&lt;br/&gt; 请先保存，然后再编辑其他条件" />
+  <resource key="condition_editor.delete_when_edit" value="无法删除正在编辑的条件" />
+  <resource key="condition_editor.validation_failed" value="验证失败" />
+  <resource key="condition_editor.name_is_exists" value="名为'{0}'的规则已存在" />
+  <resource key="condition_editor.unknown_parameter" value="用于条件参数 '${0}' 是未知的" />
+  <resource key="condition_editor.invalid_method_argument" value="方法参数中的“{0}”名称“{1}”无效" />
+  <resource key="condition_grid.contextmenu_edit" value="编辑" />
+  <resource key="condition_grid.contextmenu_view" value="查看" />
+  <resource key="condition_grid.contextmenu_remove" value="删除" />
+  <resource key="condition_grid.error_in_condition" value="条件错误" />
+  <resource key="condition_grid.empty_grid" value="没有条件。请创建一个新的." />
+  <resource key="query_builder_dialog.title" value="目标属性的路径" />
 </ui_resources>

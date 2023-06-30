@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="toolbar">
-		<button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorAND.svg" id="operatorAND" tooltip="AND">AND</button>
-		<button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorOR.svg" id="operatorOR" tooltip="OR">OR</button>
-		<button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorNOT.svg" id="operatorNOT" tooltip="NOT">NOT</button>
-		<separator />
-		<button image="../images/Delete.svg" id="remove" tooltip="Remove" disabled="true">Remove</button>
-	</toolbar>
+  <toolbar id="toolbar">
+    <button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorAND.svg" id="operatorAND" tooltip="和">和</button>
+    <button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorOR.svg" id="operatorOR" tooltip="或">或</button>
+    <button image="../Modules/aras.innovator.QueryBuilder/Images/OperatorNOT.svg" id="operatorNOT" tooltip="不">不</button>
+    <separator />
+    <button image="../images/Delete.svg" id="remove" tooltip="删除" disabled="true">删除</button>
+  </toolbar>
 </toolbarapplet>

@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-    <toolbar id="queryToolbar">
-        <button image="../images/ShowConditionText.svg" id="operatorShowConditionText" tooltip="Show Condition Text"></button>
-        <button image="../images/ShowJoinText.svg" id="operatorShowJoinText" tooltip="Show Join Text"></button>
-        <separator id="qb_separator"/>
-        <button image="../images/Parameters.svg" id="editParameters" tooltip="Edit Parameters"></button>
-    </toolbar>
+  <toolbar id="queryToolbar">
+    <button image="../images/ShowConditionText.svg" id="operatorShowConditionText" tooltip="显示条件文本">
+    </button>
+    <button image="../images/ShowJoinText.svg" id="operatorShowJoinText" tooltip="显示连接文本">
+    </button>
+    <separator id="qb_separator" />
+    <button image="../images/Parameters.svg" id="editParameters" tooltip="编辑参数">
+    </button>
+  </toolbar>
 </toolbarapplet>

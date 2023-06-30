@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="toolbar">
-		<button image="../images/ExecuteSearch.svg" id="search" tooltip="Run search">Run search</button>
-		<separator/>
-		<edit id="page_size" tooltip="Page Size" text="25" size="3"/>
-		<button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="Previous Page" text="Previous Page"/>
-		<button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="Next Page" text="Next Page"/>
-		<separator/>
-		<button image="../images/AddUser.svg" id="new" tooltip="Create trucore user">Create trucore user</button>
-		<button image="../images/DisableUser.svg" id="disable" tooltip="Disable trucore user">Disable trucore user</button>
-		<button image="../images/EnableUser.svg" id="enable" tooltip="Enable trucore user">Enable trucore user</button>
-		<button image="../images/Checkmark.svg" id="pick" tooltip="Pick trucore user">Pick trucore user</button>
-	</toolbar>
+  <toolbar id="toolbar">
+    <button image="../images/ExecuteSearch.svg" id="search" tooltip="运行搜索">运行搜索</button>
+    <separator />
+    <edit id="page_size" tooltip="页面大小" text="25" size="3" />
+    <button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="上一页" text="上一页" />
+    <button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="下一页" text="下一页" />
+    <separator />
+    <button image="../images/AddUser.svg" id="new" tooltip="创建trucore用户">创建trucore用户</button>
+    <button image="../images/DisableUser.svg" id="disable" tooltip="禁用trucore用户">禁用trucore用户</button>
+    <button image="../images/EnableUser.svg" id="enable" tooltip="使trucore用户">使trucore用户</button>
+    <button image="../images/Checkmark.svg" id="pick" tooltip="选择trucore用户">选择trucore用户</button>
+  </toolbar>
 </toolbarapplet>

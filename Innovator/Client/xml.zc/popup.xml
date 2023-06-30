@@ -4,6 +4,6 @@
   <item index="1" id="page_status" width="99%" type="both">
   </item>
   <item index="2" id="messages" width="1" type="message" value="">
-	<message template=" Messages: {0}"/>
+	<message template=" 消息: {0}"/>
   </item>
 </xml>

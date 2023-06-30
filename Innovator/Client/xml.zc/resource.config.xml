@@ -12,6 +12,7 @@
 		<resource culture="de"/>
 		<resource culture="fr"/>
 		<resource culture="ja"/>
+		<resource culture="zc"/>
 		<!--resource culture="ru"/--> 
 	</satelliteresources>
 </configuration>

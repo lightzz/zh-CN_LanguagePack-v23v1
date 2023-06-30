@@ -1,94 +1,94 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<resource key="new_item_selected" value="Please save the Item(s) before selecting." />
-	<resource key="search_placeholder" value="Search for" />
-	<resource key="form_populated_handler_check" value="CMF ItemType Form must have standard OnFormPopulated event added (Method cmf_ShowContentType). Please, configure Form." />
-	<resource key="cmf_export_to_excel.advertising_message" value="Complete Quality Planning capability including the ability to print and export Quality data to Excel files requires an additional license!&lt;br/&gt;&lt;a class='arasPlainLink' href='{0}' target='_blank' &gt;{0}&lt;/a&gt;" />
-	<resource key="cmf_export_to_excel.advertising_url" value="http://www.aras.com/services/" />
-	<resource key="invalid_integer" value="Invalid Integer" />
-	<resource key="no_matches_found" value="No matches" />
-	<resource key="more_than_100_matches" value="More than 100 matches" />
-	<resource key="found_of_matches" value="{0} of {1} matches" />
-	<resource key="menu_new" value="New" />
-	<resource key="menu_select" value="Select" />
-	<resource key="menu_create" value="Create" />
-	<resource key="menu_from_reference" value="From Reference" />
-	<resource key="menu_from_copy" value="From Copy" />
-	<resource key="menu_from_copy_special" value="From Copy Special ..." />
-	<resource key="copy_title" value="Paste Options" />
-	<resource key="menu_reference" value="Reference" />
-	<resource key="menu_insert" value="Insert " />
-	<resource key="menu_resume_tracking" value="Resume Tracking" />
-	<resource key="menu_ignore_conflict" value="Ignore Conflict" />
-	<resource key="menu_ignore_conflict_all" value="Ignore Conflict (All)" />
-	<resource key="menu_release_reference" value="Release Reference" />
-	<resource key="menu_pick_replace_item" value="Pick/Replace Item" />
-	<resource key="menu_update_document" value="Update Document" />
-	<resource key="menu_update_document_all" value="Update Document (All)" />
-	<resource key="menu_view" value="View" />
-	<resource key="menu_copy" value="Copy" />
-	<resource key="menu_remove" value="Remove" />
-	<resource key="menu_view_reference" value="View Reference" />
-	<resource key="menu_view_protect" value="Protect" />
-	<resource key="menu_protection_set_1" value="Set " />
-	<resource key="menu_protection_set_2" value=" Protection" />
-	<resource key="menu_protection_reset_1" value="Reset " />
-	<resource key="menu_protection_reset_2" value=" Protection" />
-	<resource key="menu_protection_reset_3" value="Reset Protection" />
-	<resource key="menu_insert" value="Insert " />
-	<resource key="menu_add" value="Add " />
-	<resource key="menu_expand" value="Expand" />
-	<resource key="menu_collapse" value="Collapse" />
-	<resource key="menu_accept" value="Accept" />
-	<resource key="menu_accept_wrong_binding" value="Resolve the conflict (change the reference)" />
-	<resource key="menu_accept_bind" value="Resolve the conflict (bind)" />
-	<resource key="menu_accept_resort" value="Resolve the conflict (re-sort items)" />
-	<resource key="menu_accept_all_candidates" value="Accept all candidates" />
-	<resource key="accept_flagged_null" value="'Apply Binding' method is undefined!" />
-	<resource key="conversion_task_title" value="Wait for task completion" />
-	<resource key="export_to_excel_failed" value="Export to Excel failed." />
-	<resource key="include_hierarchy" value="Include Hierarchy" />
-	<resource key="include_references" value="Include References" />
-	<resource key="include_values" value="Include Values" />
-	<resource key="no_permissions_to_create" value="You have insufficient permissions to create new referenced item." />
-	<resource key="tooltip_referenced" value="Reference value matches" />
-	<resource key="tooltip_stale-reference" value="Reference value does not match" />
-	<resource key="tooltip_missed-reference" value="Reference not accessible" />
-	<resource key="tooltip_non-tracking-reference" value="Differences ignored" />
-	<resource key="tooltip_flagged_is_binding_wrong" value="Element references an improper Item" />
-	<resource key="tooltip_flagged_is_binding_not_exist" value="Element should reference an Item" />
-	<resource key="tooltip_flagged_is_structure_wrong" value="Element references an Item that is not included in the parent element’s referenced hierarchy" />
-	<resource key="tooltip_flagged_is_bad_sort_order" value="Element has an invalid sort order" />
-	<resource key="tooltip_flagged_is_binding_need_remove" value="Element should not include a reference to an Item" />
-	<resource key="cmf_automigration_dataloss_warning" value="Updates to a Content Model Schema can cause loss of data within existing Linked Items. Do you want to proceed?" />
-	<resource key="cmf_migrate_all_permissions" value="Migrate all documents of this Content Type? (Cancel - choose one specific.)" />
-	<resource key="cmf_automigration_success" value="Successfully." />
-	<resource key="cmf_migrate_permissions_select_permission" value="“Permission_id” property of every affected property item will be updated in order to comply with currently selected “Default Permission” value of current Property and Element Types. Please, select previous “Default Permission” value, which will be replaced. “Permission_id” property values of current Property ItemType will be changed if its current “permission_id” property value is equal to selected in the dialog, which will be shown now. Otherwise, if “permission_id” property value is different from the selected (old), it will remain unchanged." />
-	<resource key="admin_add_element_type" value="Add Element Type" />
-	<resource key="admin_remove_element_binding" value="Remove Element Binding" />
-	<resource key="admin_add_view" value="Add View" />
-	<resource key="admin_remove_view" value="Remove View" />
-	<resource key="admin_add_export_settings" value="Add Export Settings" />
-	<resource key="admin_remove_export_settings" value="Remove Export Settings" />
-	<resource key="admin_add_additional_header_row" value="Add Additional Header Row" />
-	<resource key="admin_remove_additional_header_row" value="Remove Additional Row Header" />
-	<resource key="admin_add_element_type_config" value="Add Element Type Configuration" />
-	<resource key="admin_remove_element_type_config" value="Remove Element Type Configuration" />
-	<resource key="admin_add_column" value="Add Column" />
-	<resource key="admin_remove_column" value="Remove Column" />
-	<resource key="admin_add_child_element_type" value="Add Child Element Type" />
-	<resource key="admin_remove_element_type" value="Remove Element Type" />
-	<resource key="admin_add_element_binding" value="Add Element Binding" />
-	<resource key="admin_add_property_type" value="Add Property Type" />
-	<resource key="admin_convert_to_property" value="Convert to Document Element Properties" />
-	<resource key="admin_data_migration_warning" value="Please, save Content Type before calling data migration" />
-	<resource key="admin_remove_property_type" value="Remove Property Type" />
-	<resource key="admin_convert_to_element" value="Convert to Document Element" />
-	<resource key="admin_change_parent_element" value="Change parent element" />
-	<resource key="admin_update_permissions" value="Update Default Permission" />
-	<resource key="admin_can_not_delete_element" value="cmf_ElementType cannot be deleted. It has children cmf_ElementTypes" />
-	<resource key="admin_locked_by_another_user" value="Item is locked by another user. You can manually unlock it for example through AML." />
-	<resource key="admin_contain_inner_warnings" value="Contains one or more items with warnings" />
-	<resource key="admin_element_not_found" value="Reference to the element not found: " />
-	<resource key="admin_property_not_found" value="Reference to the property is not found: " />
+  <resource key="new_item_selected" value="请先保存对象，然后再选择." />
+  <resource key="search_placeholder" value="搜索" />
+  <resource key="form_populated_handler_check" value="CMF ItemType表单必须添加标准OnFormPopulated事件（方法CMF ShowContentType）。请配置窗体." />
+  <resource key="cmf_export_to_excel.advertising_message" value="完整的质量计划能力，包括打印和导出质量数据到Excel文件的能力，需要额外的许可证!&lt;br/&gt;&lt;a class='arasPlainLink' href='{0}' target='_blank' &gt;{0}&lt;/a&gt;" />
+  <resource key="cmf_export_to_excel.advertising_url" value="http://www.aras.com/services/" />
+  <resource key="invalid_integer" value="无效整数" />
+  <resource key="no_matches_found" value="没有匹配项" />
+  <resource key="more_than_100_matches" value="100多场比赛" />
+  <resource key="found_of_matches" value="{0} of {1} 比赛" />
+  <resource key="menu_new" value="新建" />
+  <resource key="menu_select" value="选择" />
+  <resource key="menu_create" value="创建" />
+  <resource key="menu_from_reference" value="从引用" />
+  <resource key="menu_from_copy" value="复制" />
+  <resource key="menu_from_copy_special" value="深度复制 ..." />
+  <resource key="copy_title" value="选项" />
+  <resource key="menu_reference" value="参考" />
+  <resource key="menu_insert" value="插入 " />
+  <resource key="menu_resume_tracking" value="继续跟踪" />
+  <resource key="menu_ignore_conflict" value="忽略冲突" />
+  <resource key="menu_ignore_conflict_all" value="忽略冲突 (所有)" />
+  <resource key="menu_release_reference" value="发布引用" />
+  <resource key="menu_pick_replace_item" value="选择/替换" />
+  <resource key="menu_update_document" value="更新 文档" />
+  <resource key="menu_update_document_all" value="更新 文档 (所有)" />
+  <resource key="menu_view" value="查看" />
+  <resource key="menu_copy" value="复制" />
+  <resource key="menu_remove" value="移除" />
+  <resource key="menu_view_reference" value="查看 引用" />
+  <resource key="menu_view_protect" value="项目" />
+  <resource key="menu_protection_set_1" value="设置 " />
+  <resource key="menu_protection_set_2" value=" 防止" />
+  <resource key="menu_protection_reset_1" value="重置 " />
+  <resource key="menu_protection_reset_2" value=" 防卫" />
+  <resource key="menu_protection_reset_3" value="重置 防卫" />
+  <resource key="menu_insert" value="插入 " />
+  <resource key="menu_add" value="添加 " />
+  <resource key="menu_expand" value="展开" />
+  <resource key="menu_collapse" value="折叠" />
+  <resource key="menu_accept" value="接受" />
+  <resource key="menu_accept_wrong_binding" value="解决冲突（更改引用）" />
+  <resource key="menu_accept_bind" value="解决冲突（绑定）" />
+  <resource key="menu_accept_resort" value="解决冲突（重新排序项目）" />
+  <resource key="menu_accept_all_candidates" value="接受所有候选人" />
+  <resource key="accept_flagged_null" value="'“应用绑定”方法未定义!" />
+  <resource key="conversion_task_title" value="等待任务完成" />
+  <resource key="export_to_excel_failed" value="导出到Excel失败." />
+  <resource key="include_hierarchy" value="包括层次结构" />
+  <resource key="include_references" value="包括参考资料" />
+  <resource key="include_values" value="包含值" />
+  <resource key="no_permissions_to_create" value="您没有足够的权限创建新的引用项." />
+  <resource key="tooltip_referenced" value="参考值匹配" />
+  <resource key="tooltip_stale-reference" value="参考值不匹配" />
+  <resource key="tooltip_missed-reference" value="无法访问引用" />
+  <resource key="tooltip_non-tracking-reference" value="忽略差异" />
+  <resource key="tooltip_flagged_is_binding_wrong" value="元素引用了不正确的项" />
+  <resource key="tooltip_flagged_is_binding_not_exist" value="元素应引用项" />
+  <resource key="tooltip_flagged_is_structure_wrong" value="元素引用的项不包括在父元素的引用层次结构中" />
+  <resource key="tooltip_flagged_is_bad_sort_order" value="元素的排序顺序无效" />
+  <resource key="tooltip_flagged_is_binding_need_remove" value="元素不应包含对项的引用" />
+  <resource key="cmf_automigration_dataloss_warning" value="对内容模型架构的更新可能会导致现有链接项中的数据丢失。你想继续吗?" />
+  <resource key="cmf_migrate_all_permissions" value="是否迁移此内容类型的所有文档(取消-选择一个特定的。）" />
+  <resource key="cmf_automigration_success" value="成功." />
+  <resource key="cmf_migrate_permissions_select_permission" value="将更新每个受影响属性项的属性，以符合当前属性和元素类型的当前选定“默认权限”值。请选择以前的“默认权限”值，该值将被替换。“如果当前属性ItemType的当前“Permission_id”属性值等于当前显示的对话框中选定的值，则当前属性ItemType的Permission_id属性值将被更改。否则，如果“permission_id”属性值与所选（旧）属性值不同，则它将保持不变." />
+  <resource key="admin_add_element_type" value="添加元素类型" />
+  <resource key="admin_remove_element_binding" value="删除元素绑定" />
+  <resource key="admin_add_view" value="添加视图" />
+  <resource key="admin_remove_view" value="删除视图" />
+  <resource key="admin_add_export_settings" value="添加导出设置" />
+  <resource key="admin_remove_export_settings" value="删除导出设置" />
+  <resource key="admin_add_additional_header_row" value="添加其他标题行" />
+  <resource key="admin_remove_additional_header_row" value="删除其他行标题" />
+  <resource key="admin_add_element_type_config" value="添加元素类型配置" />
+  <resource key="admin_remove_element_type_config" value="删除元素类型配置" />
+  <resource key="admin_add_column" value="添加列" />
+  <resource key="admin_remove_column" value="移除列" />
+  <resource key="admin_add_child_element_type" value="添加子元素类型" />
+  <resource key="admin_remove_element_type" value="删除元素类型" />
+  <resource key="admin_add_element_binding" value="添加元素绑定" />
+  <resource key="admin_add_property_type" value="添加属性类型" />
+  <resource key="admin_convert_to_property" value="转换为文档元素属性" />
+  <resource key="admin_data_migration_warning" value="请在调用数据迁移之前保存内容类型" />
+  <resource key="admin_remove_property_type" value="删除属性类型" />
+  <resource key="admin_convert_to_element" value="转换为文档元素" />
+  <resource key="admin_change_parent_element" value="更改父元素" />
+  <resource key="admin_update_permissions" value="更新默认权限" />
+  <resource key="admin_can_not_delete_element" value="cmf_ElementType 无法删除。它有子cmf_ElementTypes" />
+  <resource key="admin_locked_by_another_user" value="项目已被其他用户锁定。你可以手动解锁，例如通过AML." />
+  <resource key="admin_contain_inner_warnings" value="包含一个或多个带有警告的项" />
+  <resource key="admin_element_not_found" value="找不到对元素的引用: " />
+  <resource key="admin_property_not_found" value="找不到对属性的引用: " />
 </ui_resources>

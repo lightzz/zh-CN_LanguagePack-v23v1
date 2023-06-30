@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="configurator_toolbar">
-		<button text="Show Parameter Mapping" id="show_parameter_mapping" state="0" image="../images/Parameters.svg" tooltip="Show Parameter Mapping"/>
-	</toolbar>
+  <toolbar id="configurator_toolbar">
+    <button text="Show Parameter Mapping" id="show_parameter_mapping" state="0" image="../images/Parameters.svg" tooltip="显示参数映射" />
+  </toolbar>
 </toolbarapplet>

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-	<!--Advertisements-->
-	<resource key="advertisement.get_subscription" value="Subscribers get Enterprise Search where users get to search across various Item Types and Files including content within Files, and more!" />
-	<resource key="advertisement.see_more" value="See More" />
-
-	<!--Tab-->
-	<resource key="tab.title" value="Search Items and Files" />
+  <!--Advertisements-->
+  <resource key="advertisement.get_subscription" value="Aras订阅者可以进行企业搜索，用户可以搜索各种项目类型和文件，包括文件中的内容等等!" />
+  <resource key="advertisement.see_more" value="查看更多" />
+  <!--Tab-->
+  <resource key="tab.title" value="搜寻项目及档案" />
 </ui_resources>

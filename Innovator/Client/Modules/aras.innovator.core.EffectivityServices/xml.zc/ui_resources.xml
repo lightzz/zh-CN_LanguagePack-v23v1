@@ -1,36 +1,32 @@
-﻿<ui_resources>
-	<resource key="can_not_save_invalid_definition" value="There is a syntax error in the effectivity expression. Please review error detail and make necessary correction."/>
-
-	<!-- START: EffectivityCriteriaDialog resources -->
-	<resource key="effectivity_criteria_dialog.title" value="Effectivity Criteria Filter" />
-	<resource key="effectivity_criteria_dialog.change_scope_message" value="Changing of &quot;{0}&quot; scope will affect the entered variable values." />
-	<resource key="effectivity_criteria_dialog.grid.variable_column_label" value="Variable" />
-	<resource key="effectivity_criteria_dialog.grid.value_column_label" value="Value" />
-	<resource key="effectivity_criteria_dialog.apply_button_label" value="Apply" />
-	<resource key="effectivity_criteria_dialog.clear_button_label" value="Clear" />
-	<resource key="effectivity_criteria_dialog.apply_button_validation_message" value="One of entered values is not valid. Please review and make necessary correction." />
-	<resource key="effectivity_criteria_dialog.grid.cell_editor.invalid_date_validation_message" value="Date must be &quot;{0}&quot;." />
-	<!-- END: EffectivityCriteriaDialog resources -->
-
-	<!-- START: EffectivityExpressionItemGrid resources -->
-	<resource key="effectivity_expression_item_grid.title" value="BOM Effectivity" />
-	<resource key="effectivity_expression_item_grid.title_divider" value=": " />
-	<resource key="effectivity_expression_item_grid.close_button.label" value="Close" />
-	<resource key="effectivity_expression_item_grid.grid.scope_column_label" value="Effectivity Scope" />
-	<resource key="effectivity_expression_item_grid.grid.expression_column_label" value="Effectivity Expression" />
-	<resource key="effectivity_expression_item_grid.delete_confirmation.title" value="Confirm Delete" />
-	<resource key="effectivity_expression_item_grid.delete_confirmation.message" value="Are you sure you want to delete selected effectivity(s)?" />
-	<!-- END: EffectivityExpressionItemGrid resources -->
-
-	<!-- START: Effective item grid common resources -->
-	<resource key="effective_item_grid.single_row_must_be_selected_to_view_effectivity" value="Select a row" />
-	<!-- END: Effective item grid common resources -->
-
-	<!-- START: EffectivityExpressionEditor resources -->
-	<resource key="effectivity_expression_editor.title" value="Effectivity Expression" />
-	<resource key="effectivity_expression_editor.apply_button_label" value="Apply" />
-	<resource key="effectivity_expression_editor.cancel_button_label" value="Cancel" />
-	<resource key="effectivity_expression_editor.edit_button_label" value="Edit" />
-	<resource key="effectivity_expression_editor.changes_not_saved" value="Effectivity Expression changes have not been saved. What do you want to do?" />
-	<!-- END: EffectivityExpressionEditor resources -->
+<ui_resources>
+  <resource key="can_not_save_invalid_definition" value="有效性表达式中存在语法错误。请检查错误详情并作出必要的纠正。" />
+  <!-- START: EffectivityCriteriaDialog resources -->
+  <resource key="effectivity_criteria_dialog.title" value="有效性标准滤光片" />
+  <resource key="effectivity_criteria_dialog.change_scope_message" value="改变“{0}”作用域会影响输入的变量值。" />
+  <resource key="effectivity_criteria_dialog.grid.variable_column_label" value="变量" />
+  <resource key="effectivity_criteria_dialog.grid.value_column_label" value="价值" />
+  <resource key="effectivity_criteria_dialog.apply_button_label" value="应用" />
+  <resource key="effectivity_criteria_dialog.clear_button_label" value="清晰的" />
+  <resource key="effectivity_criteria_dialog.apply_button_validation_message" value="输入的值中有一个无效。请检查并作出必要的更正。" />
+  <resource key="effectivity_criteria_dialog.grid.cell_editor.invalid_date_validation_message" value="日期必须为“{0}”。" />
+  <!-- END: EffectivityCriteriaDialog resources -->
+  <!-- START: EffectivityExpressionItemGrid resources -->
+  <resource key="effectivity_expression_item_grid.title" value="BOM功效" />
+  <resource key="effectivity_expression_item_grid.title_divider" value="：" />
+  <resource key="effectivity_expression_item_grid.close_button.label" value="关闭" />
+  <resource key="effectivity_expression_item_grid.grid.scope_column_label" value="有效范围" />
+  <resource key="effectivity_expression_item_grid.grid.expression_column_label" value="有效的表达" />
+  <resource key="effectivity_expression_item_grid.delete_confirmation.title" value="确认删除" />
+  <resource key="effectivity_expression_item_grid.delete_confirmation.message" value="您确定要删除选定的效率吗?" />
+  <!-- END: EffectivityExpressionItemGrid resources -->
+  <!-- START: Effective item grid common resources -->
+  <resource key="effective_item_grid.single_row_must_be_selected_to_view_effectivity" value="选择一行" />
+  <!-- END: Effective item grid common resources -->
+  <!-- START: EffectivityExpressionEditor resources -->
+  <resource key="effectivity_expression_editor.title" value="有效的表达" />
+  <resource key="effectivity_expression_editor.apply_button_label" value="应用" />
+  <resource key="effectivity_expression_editor.cancel_button_label" value="取消" />
+  <resource key="effectivity_expression_editor.edit_button_label" value="编辑" />
+  <resource key="effectivity_expression_editor.changes_not_saved" value="表达式更改尚未保存。你想做什么?" />
+  <!-- END: EffectivityExpressionEditor resources -->
 </ui_resources>

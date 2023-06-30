@@ -6,30 +6,22 @@
 ' Purpose: This is the table tool bar for the Designer page.
 '
 -->
-<toolbarapplet
-  on_click      = "onClickItem"
-  on_load       = "onToolbarLoad"
-  buttonstyle   = "windows"
-  buttonsize    = "22,22"
-  font          = "Arial-12"
-  bottom_border = "1">
-
+<toolbarapplet on_click="onClickItem" on_load="onToolbarLoad" buttonstyle="windows" buttonsize="22,22" font="Arial-12" bottom_border="1">
   <toolbar id="normal">
-    <button image="../scripts/ReportTool/images/16x16_newTable.gif"  id="table"    tooltip="Insert Table"     >Table  </button>
-    <button image="../scripts/ReportTool/images/16x16_rowAbove.gif"  id="tr-above" tooltip="Insert Row Above" >Row Above  </button>
-    <button image="../scripts/ReportTool/images/16x16_rowBelow.gif"  id="tr-below" tooltip="Insert Row Below" >Row Below  </button>
-    <button image="../scripts/ReportTool/images/16x16_cellLeft.gif"  id="td-left"  tooltip="Insert Cell Left" >Cell Left  </button>
-    <button image="../scripts/ReportTool/images/16x16_cellRight.gif" id="td-right" tooltip="Insert Cell Right">Cell Right  </button>
-    <separator/>
-    <button image="../scripts/ReportTool/images/16x16_deleteCell.gif" id="del-cell" tooltip="Delete Cell">Delete Cell  </button>
-    <button image="../scripts/ReportTool/images/16x16_deleteRow.gif"  id="del-row"  tooltip="Delete Row" >Delete Row  </button>
-    <separator/>
-    <button image="../scripts/ReportTool/images/16x16_cssStyles.gif" id="styles"     tooltip="Styles"    >Styles  </button>
-    <button image="../scripts/ReportTool/images/16x16_cellStyle.gif" id="cell-style" tooltip="Cell Style">Style  </button>
-    <button image="../scripts/ReportTool/images/16x16_value.gif"     id="cell-value" tooltip="Cell Value">Value  </button>
-    <button image="../scripts/ReportTool/images/16x16_picture.gif"   id="image"      tooltip="Image"     >Image  </button>
-    <separator/>
-    <button image="../scripts/ReportTool/images/16x16_refresh.gif" id="refresh" tooltip="Refresh Item">Refresh  </button>
+    <button image="../scripts/ReportTool/images/16x16_newTable.gif" id="table" tooltip="插入表">表格</button>
+    <button image="../scripts/ReportTool/images/16x16_rowAbove.gif" id="tr-above" tooltip="上面插入行">行上面</button>
+    <button image="../scripts/ReportTool/images/16x16_rowBelow.gif" id="tr-below" tooltip="下面插入一行">下面的行</button>
+    <button image="../scripts/ReportTool/images/16x16_cellLeft.gif" id="td-left" tooltip="插入单元格左">细胞离开</button>
+    <button image="../scripts/ReportTool/images/16x16_cellRight.gif" id="td-right" tooltip="插入细胞">细胞</button>
+    <separator />
+    <button image="../scripts/ReportTool/images/16x16_deleteCell.gif" id="del-cell" tooltip="删除单元格">删除单元格</button>
+    <button image="../scripts/ReportTool/images/16x16_deleteRow.gif" id="del-row" tooltip="删除行">删除行</button>
+    <separator />
+    <button image="../scripts/ReportTool/images/16x16_cssStyles.gif" id="styles" tooltip="风格">风格</button>
+    <button image="../scripts/ReportTool/images/16x16_cellStyle.gif" id="cell-style" tooltip="单元格样式">风格</button>
+    <button image="../scripts/ReportTool/images/16x16_value.gif" id="cell-value" tooltip="单元格值">值</button>
+    <button image="../scripts/ReportTool/images/16x16_picture.gif" id="image" tooltip="图像">图像</button>
+    <separator />
+    <button image="../scripts/ReportTool/images/16x16_refresh.gif" id="refresh" tooltip="刷新项目">刷新</button>
   </toolbar>
-
 </toolbarapplet>

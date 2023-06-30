@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet buttonsize="26,25">
-	<toolbar id="form_toolbar">
-		<button disabled="true" image="../images/OperatorAND.svg" id="OperatorAND" tooltip="AND" />
-		<button disabled="true" image="../images/OperatorOR.svg" id="OperatorOR" tooltip="OR" />
-		<button disabled="true" image="../images/OperatorNOT.svg" id="OperatorNOT" tooltip="NOT" />
-		<separator/>
-		<button disabled="true" image="../images/SaveUnlockClose.svg" id="save" tooltip="Ok" />
-		<button disabled="true" image="../images/Delete.svg" id="delete" tooltip="Cancel" />
-	</toolbar>
+  <toolbar id="form_toolbar">
+    <button disabled="true" image="../images/OperatorAND.svg" id="OperatorAND" tooltip="和" />
+    <button disabled="true" image="../images/OperatorOR.svg" id="OperatorOR" tooltip="或" />
+    <button disabled="true" image="../images/OperatorNOT.svg" id="OperatorNOT" tooltip="不" />
+    <separator />
+    <button disabled="true" image="../images/SaveUnlockClose.svg" id="save" tooltip="保存解锁并关闭" />
+    <button disabled="true" image="../images/Delete.svg" id="delete" tooltip="取消" />
+  </toolbar>
 </toolbarapplet>

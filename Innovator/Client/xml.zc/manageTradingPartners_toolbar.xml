@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <toolbarapplet on_load="onToolbarAppletLoad" on_click="onClickItem" buttonstyle="windows" buttonsize="26,25">
-	<toolbar id="toolbar">
-		<button image="../images/ExecuteSearch.svg" id="search" tooltip="Run search">Run search</button>
-		<separator/>
-		<edit id="page_size" tooltip="Page Size" text="25" size="3"/>
-		<button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="Previous Page" text="Previous Page"/>
-		<button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="Next Page" text="Next Page"/>
-		<separator/>
-		<button image="../images/New.svg" id="add" tooltip="Add Trading Partners">Add Trading Partners</button>
-		<button image="../images/Delete.svg" id="delete" tooltip="Delete Trading Partners">Delete Trading Partners</button>
-	</toolbar>
+  <toolbar id="toolbar">
+    <button image="../images/ExecuteSearch.svg" id="search" tooltip="运行搜索">运行搜索</button>
+    <separator />
+    <edit id="page_size" tooltip="页大小" text="25" size="3" />
+    <button disabled="true" image="../images/PreviousPage.svg" id="prev_page" tooltip="上一页" text="上一页" />
+    <button disabled="true" image="../images/NextPage.svg" id="next_page" tooltip="下一页" text="下一页" />
+    <separator />
+    <button image="../images/New.svg" id="add" tooltip="增加贸易伙伴">增加贸易伙伴</button>
+    <button image="../images/Delete.svg" id="delete" tooltip="删除贸易伙伴">删除贸易伙伴</button>
+  </toolbar>
 </toolbarapplet>
