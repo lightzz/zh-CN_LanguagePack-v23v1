@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ui_resources>
-  <resource key="common.version" value="Release"/>
-  <resource key="common.build" value="Build"/>
-  <resource key="login.username" value="Username"/>
-  <resource key="login.login_with" value="Login with"/>
+  <resource key="common.version" value="版本:"/>
+  <resource key="common.build" value="生成:"/>
+  <resource key="login.username" value="用户名"/>
+  <resource key="login.login_with" value="使用登录"/>
   <resource key="login.password" value="密码"/>
-  <resource key="login.database" value="Database"/>
-  <resource key="login.capslock_is_on" value="Caps Lock is On"/>
-  <resource key="login.login" value="Login"/>
-  <resource key="login.continue" value="Continue"/>
-  <resource key="login.missing_authentication_type" value="Missing authentication type"/>
-  <resource key="login.missing_login_name" value="Missing login name"/>
-  <resource key="login.missing_password" value="Missing password"/>
-  <resource key="login.missing_database" value="Missing database"/>
-  <resource key="loggedOut.logout" value="Logout"/>
-  <resource key="loggedOut.logged_out" value="You are now logged out."/>
-  <resource key="loggedOut.login_again" value="Login Again"/>
-  <resource key="error.error" value="Error"/>
-  <resource key="error.invalid_request" value="Invalid request."/>
-  <resource key="error.unauthorized_client" value="Unauthorized client."/>
-  <resource key="error.access_denied" value="Access denied."/>
-  <resource key="error.unsupported_response_type" value="Unsupported response type."/>
-  <resource key="error.invalid_scope" value="Invalid scope."/>
-  <resource key="error.server_error" value="Internal server error."/>
-  <resource key="error.temporarily_unavailable" value="Temporarily unavailable."/>
-  <resource key="error.interaction_required" value="Interaction required."/>
-  <resource key="error.login_required" value="Login required."/>
-  <resource key="error.account_selection_required" value="Account selection required."/>
-  <resource key="error.consent_required" value="Consent required."/>
-  <resource key="error.invalid_request_uri" value="Invalid request URI."/>
-  <resource key="error.invalid_request_object" value="Invalid request object."/>
-  <resource key="error.request_not_supported" value="Request not supported."/>
-  <resource key="error.request_uri_not_supported" value="Request URI not supported."/>
-  <resource key="error.registration_not_supported" value="Registration not supported."/>
-  <resource key="error.invalid_redirect_uri" value="Invalid redirect_uri."/>
-  <resource key="error.cannot_find_error_message" value="Cannot find error message by '{0}={1}'."/>
-  <resource key="error.request_failed_with_error_code" value="Request failed with error code '{0}'."/>
-  <resource key="error.dblist_request_failed" value="DBList request failed: Request uri: '{0}', Status code: '{1}', Reason: '{2}'."/>
-  <resource key="error.authenticate_request_failed" value="Authenticate request failed: Request uri: '{0}', Status code: '{1}', Reason: '{2}'."/>
-  <resource key="error.login_failed_for_external_user" value="Cannot map external user with authentication type '{0}' in database '{1}'."/>
-  <resource key="error.invalid_requested_database" value="Requested database is not found."/>
-  <resource key="error.invalid_preferred_database" value="Preferred database is not found."/>
-  <resource key="error.invalid_requested_auth_type" value="Requested authentication type is not found."/>
-  <resource key="error.invalid_preferred_auth_type" value="Preferred authentication type is not found."/>
-  <resource key="error.cannot_perform_silent_login" value="Cannot perform silent login. Direct login is required."/>
+  <resource key="login.database" value="数据库"/>
+  <resource key="login.capslock_is_on" value="大写锁定已打开"/>
+  <resource key="login.login" value="登录"/>
+  <resource key="login.continue" value="继续"/>
+  <resource key="login.missing_authentication_type" value="缺少身份验证类型"/>
+  <resource key="login.missing_login_name" value="缺少 登录名"/>
+  <resource key="login.missing_password" value="缺少 密码"/>
+  <resource key="login.missing_database" value="缺少 数据库"/>
+  <resource key="loggedOut.logout" value="注销"/>
+  <resource key="loggedOut.logged_out" value="您现在已注销."/>
+  <resource key="loggedOut.login_again" value="再次登录"/>
+  <resource key="error.error" value="错误"/>
+  <resource key="error.invalid_request" value="无效的请求."/>
+  <resource key="error.unauthorized_client" value="未授权客户."/>
+  <resource key="error.access_denied" value="拒绝访问."/>
+  <resource key="error.unsupported_response_type" value="不支持的响应类型."/>
+  <resource key="error.invalid_scope" value="无效的作用域."/>
+  <resource key="error.server_error" value="内部服务器错误."/>
+  <resource key="error.temporarily_unavailable" value="暂时不可用."/>
+  <resource key="error.interaction_required" value="需要交互."/>
+  <resource key="error.login_required" value="需要登录."/>
+  <resource key="error.account_selection_required" value="需要选择帐户."/>
+  <resource key="error.consent_required" value="需要同意."/>
+  <resource key="error.invalid_request_uri" value="无效的请求URI."/>
+  <resource key="error.invalid_request_object" value="无效的请求对象."/>
+  <resource key="error.request_not_supported" value="不支持请求."/>
+  <resource key="error.request_uri_not_supported" value="不支持请求URI."/>
+  <resource key="error.registration_not_supported" value="不支持注册."/>
+  <resource key="error.invalid_redirect_uri" value="重定向uri无效."/>
+  <resource key="error.cannot_find_error_message" value="无法通过找到错误消息 '{0}={1}'."/>
+  <resource key="error.request_failed_with_error_code" value="请求失败，错误代码为 '{0}'."/>
+  <resource key="error.dblist_request_failed" value="DBList请求失败：请求uri: '{0}', 状态代码: '{1}', 原因: '{2}'."/>
+  <resource key="error.authenticate_request_failed" value="身份验证请求失败: 请求uri: '{0}', 状态代码: '{1}', 原因: '{2}'."/>
+  <resource key="error.login_failed_for_external_user" value="在数据库中 '{1}'无法映射身份验证类型为的外部用户'{0}' ."/>
+  <resource key="error.invalid_requested_database" value="找不到请求的数据库."/>
+  <resource key="error.invalid_preferred_database" value="找不到首选数据库."/>
+  <resource key="error.invalid_requested_auth_type" value="找不到请求的身份验证类型."/>
+  <resource key="error.invalid_preferred_auth_type" value="找不到首选身份验证类型."/>
+  <resource key="error.cannot_perform_silent_login" value="无法执行静默登录。需要直接登录."/>
 </ui_resources>
