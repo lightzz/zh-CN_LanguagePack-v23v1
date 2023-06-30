@@ -1,0 +1,155 @@
+﻿<export>
+ <Item type="rb_ColumnDefinition" keyed_name="2FA8507358BF4AA79C332492144D69EC" config_id="2FA8507358BF4AA79C332492144D69EC">
+  <property __name="header" en="Revision" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="42B3F58E249E40D78F2A4A3F24356433" config_id="42B3F58E249E40D78F2A4A3F24356433">
+  <property __name="header" en="Name" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="72CDB6B756464A26903F0D1334573564" config_id="72CDB6B756464A26903F0D1334573564">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="76508374091B491FB5F41EFBC33185DD" config_id="76508374091B491FB5F41EFBC33185DD">
+  <property __name="header" en="Quantity" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="8B2509B5DB3C4852A78D5736E14EAB61" config_id="8B2509B5DB3C4852A78D5736E14EAB61">
+  <property __name="header" en="Sequence" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="A08C3041A8B3452AA0F72FF094E3EE22" config_id="A08C3041A8B3452AA0F72FF094E3EE22">
+  <property __name="header" en="Effectivity" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="C20F60BA9C1A4D01A0D5C6CEED2C9B94" config_id="C20F60BA9C1A4D01A0D5C6CEED2C9B94">
+  <property __name="header" en="Claimed By" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="D366290D9D0243F9B257FC11FBE0E5C7" config_id="D366290D9D0243F9B257FC11FBE0E5C7">
+  <property __name="header" en="Part Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F27AC73373744008AC411DFB804C8808" config_id="F27AC73373744008AC411DFB804C8808">
+  <property __name="header" en="Reference Designator" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="912D0FC290A74726AA9E041E3CD2E465" config_id="912D0FC290A74726AA9E041E3CD2E465">
+  <property __name="header" en="Title" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="A291636AD3EF41D59CB63ECBB3AD0F74" config_id="A291636AD3EF41D59CB63ECBB3AD0F74">
+  <property __name="header" en="Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="D052FB08BDAB4E58A7E76D560C4A924C" config_id="D052FB08BDAB4E58A7E76D560C4A924C">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="D8D21C90B1F74A3CA9E4BE1B8896CA40" config_id="D8D21C90B1F74A3CA9E4BE1B8896CA40">
+  <property __name="header" en="Type" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE207EA38F0D0163FDD" config_id="39832B9C3FD19EE207EA38F0D0163FDD">
+  <property __name="header" en="Cost" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE21F8FF7305DF186EE" config_id="39832B9C3FD19EE21F8FF7305DF186EE">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE22DE88743CE23B8AB" config_id="39832B9C3FD19EE22DE88743CE23B8AB">
+  <property __name="header" en="Part Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE23808165F6BDF5534" config_id="39832B9C3FD19EE23808165F6BDF5534">
+  <property __name="header" en="Changes" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE25F3568D4E4CD4924" config_id="39832B9C3FD19EE25F3568D4E4CD4924">
+  <property __name="header" en="Name" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE2636994BB711EB381" config_id="39832B9C3FD19EE2636994BB711EB381">
+  <property __name="header" en="Claimed By [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE28EDA773F141EBFC4" config_id="39832B9C3FD19EE28EDA773F141EBFC4">
+  <property __name="header" en="Type" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="39832B9C3FD19EE2A197CF497F14D2E1" config_id="39832B9C3FD19EE2A197CF497F14D2E1">
+  <property __name="header" en="Revision" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E715640404DCAAE9A04F5897" config_id="BDD7E814E715640404DCAAE9A04F5897">
+  <property __name="header" en="Authoring Tool" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564041CBF7EFC8DF54B9B" config_id="BDD7E814E71564041CBF7EFC8DF54B9B">
+  <property __name="header" en="Standard" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564041F8FF7305DF186EE" config_id="BDD7E814E71564041F8FF7305DF186EE">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E715640421031199415F21A4" config_id="BDD7E814E715640421031199415F21A4">
+  <property __name="header" en="Viewable File [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564042DE88743CE23B8AB" config_id="BDD7E814E71564042DE88743CE23B8AB">
+  <property __name="header" en="Document Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564043808165F6BDF5534" config_id="BDD7E814E71564043808165F6BDF5534">
+  <property __name="header" en="Changes" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E7156404434B137DE6B52A2F" config_id="BDD7E814E7156404434B137DE6B52A2F">
+  <property __name="header" en="Native File [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564045F3568D4E4CD4924" config_id="BDD7E814E71564045F3568D4E4CD4924">
+  <property __name="header" en="Name" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E7156404636994BB711EB381" config_id="BDD7E814E7156404636994BB711EB381">
+  <property __name="header" en="Claimed By [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E7156404829372947D297906" config_id="BDD7E814E7156404829372947D297906">
+  <property __name="header" en="Gen" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E71564048EDA773F141EBFC4" config_id="BDD7E814E71564048EDA773F141EBFC4">
+  <property __name="header" en="Type" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E7156404A197CF497F14D2E1" config_id="BDD7E814E7156404A197CF497F14D2E1">
+  <property __name="header" en="Revision" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="BDD7E814E7156404D60CA6761A32E1DA" config_id="BDD7E814E7156404D60CA6761A32E1DA">
+  <property __name="header" en="Template" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A1F8FF7305DF186EE" config_id="E79808509E1E5E5A1F8FF7305DF186EE">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A2D31655F8E5BC64B" config_id="E79808509E1E5E5A2D31655F8E5BC64B">
+  <property __name="header" en="Unit" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A2DE88743CE23B8AB" config_id="E79808509E1E5E5A2DE88743CE23B8AB">
+  <property __name="header" en="Part Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A48F8013EB9A67C3C" config_id="E79808509E1E5E5A48F8013EB9A67C3C">
+  <property __name="header" en="Unit Price" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A4B1DE7EC620FC40E" config_id="E79808509E1E5E5A4B1DE7EC620FC40E">
+  <property __name="header" en="Files" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A5F3568D4E4CD4924" config_id="E79808509E1E5E5A5F3568D4E4CD4924">
+  <property __name="header" en="Name" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5A636994BB711EB381" config_id="E79808509E1E5E5A636994BB711EB381">
+  <property __name="header" en="Claimed By [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="E79808509E1E5E5AB794ED679FAC73E8" config_id="E79808509E1E5E5AB794ED679FAC73E8">
+  <property __name="header" en="Description" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A07EA38F0D0163FDD" config_id="F009F23D7BE6718A07EA38F0D0163FDD">
+  <property __name="header" en="Cost" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A1F8FF7305DF186EE" config_id="F009F23D7BE6718A1F8FF7305DF186EE">
+  <property __name="header" en="State" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A2DE88743CE23B8AB" config_id="F009F23D7BE6718A2DE88743CE23B8AB">
+  <property __name="header" en="Part Number" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A3808165F6BDF5534" config_id="F009F23D7BE6718A3808165F6BDF5534">
+  <property __name="header" en="Changes" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A5F3568D4E4CD4924" config_id="F009F23D7BE6718A5F3568D4E4CD4924">
+  <property __name="header" en="Name" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A636994BB711EB381" config_id="F009F23D7BE6718A636994BB711EB381">
+  <property __name="header" en="Claimed By [...]" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A829372947D297906" config_id="F009F23D7BE6718A829372947D297906">
+  <property __name="header" en="generation" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718A8EDA773F141EBFC4" config_id="F009F23D7BE6718A8EDA773F141EBFC4">
+  <property __name="header" en="Type" zc="" />
+ </Item>
+ <Item type="rb_ColumnDefinition" keyed_name="F009F23D7BE6718AA197CF497F14D2E1" config_id="F009F23D7BE6718AA197CF497F14D2E1">
+  <property __name="header" en="Revision" zc="" />
+ </Item>
+</export>

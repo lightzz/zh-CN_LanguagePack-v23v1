@@ -1,0 +1,674 @@
+﻿<export>
+ <Item type="RelationshipType" keyed_name="Discussion" config_id="00C20804188E4D9987D74AAB8C2A93C3">
+  <property __name="label" en="My Discussion" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="LockedItems" config_id="497BB04B15C0445F9710016C24222F98">
+  <property __name="label" en="LockedItems" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow" config_id="888CBB5016284E8692D22380F4ED74EF">
+  <property __name="label" en="Workflows" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionServerConverterType" config_id="3DE6132F8F0A4C0DADBD9F751E61C6DE">
+  <property __name="label" en="Converters" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionTaskDependency" config_id="87DC85A196994AB59F1D675ED584F1AB">
+  <property __name="label" en="Dependencies" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionTaskEventHandler" config_id="C38637BA3A9A446BBB16F884089B1E9D">
+  <property __name="label" en="Event Handlers" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionTaskResult" config_id="10D12AC0673746CAAAD08298B2F5C91A">
+  <property __name="label" en="Results" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Access_ExplicitDefine" config_id="701AA04C2D7A44DD8CE61525AE93EB9E">
+  <property __name="label" en="Access" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple ECO Affected Item" config_id="056E4FAB93B149518268FAAE47D3BDEA">
+  <property __name="label" en="Affected Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple ECO File" config_id="1C0359D19EC84C9DA948EC0645737DC8">
+  <property __name="label" en="Attachments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple ECO Signoff" config_id="A2B1016949EA4F2993BEB62787B13754">
+  <property __name="label" en="Signoffs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionRuleEventHandler" config_id="EAD647F08E0B45C2823C26FCD560B7FB">
+  <property __name="label" en="Rule Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionRuleEventTemplate" config_id="C0E3A054539D43DA9896D3C907EBFC30">
+  <property __name="label" en="Task Event Templates" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionRuleFileType" config_id="B63375A2F5A24BBFB28C8AE87678C6B8">
+  <property __name="label" en="File Types" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="WMSetConfigurations" config_id="0A21CAE9FC8C4260A03AA0620CD613A7">
+  <property __name="label" en="Template Collections" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Feed" config_id="6C09CAEEEBE04BDD9DF8702813D2CAA3">
+  <property __name="label" en="Feed" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="fr_RepresentationType" config_id="A6971B2196A84D629B0D73B84FC9FA6B">
+  <property __name="label" en="Representation Type" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="WMSettingContent" config_id="F1662D37A693451AA1AC458B979C053C">
+  <property __name="label" en="Methods" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="WMSettingLCStates" config_id="295ED8ECB16D49299265934EA36D5442">
+  <property __name="label" en="States" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Help See Also" config_id="1EB10F2599644CBC85029BCF9E6B7248">
+  <property __name="label" en="See Also" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_ConnectorViewTemplate" config_id="EA43B63EDF7F4A328CA43E8B6D7299F5">
+  <property __name="label" en="View Cards" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Metric Value" config_id="89CD276CDF2143339E8A89B3977436BD">
+  <property __name="label" en="Metric Values" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Chart Series" config_id="01F0B13FEEBC495E91C57AAAA7521BC8">
+  <property __name="label" en="Chart Series" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Transition EMail" config_id="19EB203FFD8B439D8C23023F9DD1F953">
+  <property __name="label" en="Transition E-Mail" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Process Activity" config_id="27206F72FED74C429C8D4B9726E4DE8C">
+  <property __name="label" en="Activities" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Process Variable" config_id="8D514EBD6C7E4073BA9C28369746DC67">
+  <property __name="label" en="Process Variables" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Grid Event" config_id="B5E8B6D8983E4EC2BCC8B74135F6027E">
+  <property __name="label" en="Event" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Affected Relationship Property" config_id="23A4A1264FC841FEA2B5468FBA6B4F26">
+  <property __name="label" en="Affected Relationship Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CAD Instance" config_id="C40317E258D146F89DC0FD9455B5D32F">
+  <property __name="label" en="Instances" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple MCO File" config_id="F0A553248B4D42F6AF0074EAB2D7B100">
+  <property __name="label" en="Attachments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple MCO Part" config_id="84EA48B035004BD1B12446375A9EB2A0">
+  <property __name="label" en="Affected Parts" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Simple MCO Signoff" config_id="0DE9A525159A4C8F8C4BE90CD9205546">
+  <property __name="label" en="Signoffs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECR Affected Item" config_id="CBB761FC543744229D3EF62FE846CE0D">
+  <property __name="label" en="Affected Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECR File" config_id="F3764FE06A914DB3BB90EFEFBA50DA33">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECR PR" config_id="738D159A07A44BD588A63D94C32DD775">
+  <property __name="label" en="PRs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ForumMustViewBy" config_id="C3C328F9997A48598501FAA097050D84">
+  <property __name="label" en="Must View By" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ForumSharedWith" config_id="2434F9A78E614A5A90B7BBEFCD265561">
+  <property __name="label" en="Shared With" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ForumWantViewBy" config_id="6A7E076EC47F465EB6F741524A7D9DBC">
+  <property __name="label" en="Want View By" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="PDFWMTemplates" config_id="354492657C784C15B1F10A6AB2713EBB">
+  <property __name="label" en="PDF Templates" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Process Path Post" config_id="A4C176FC037B4C0C8C5F9B04144EEAA2">
+  <property __name="label" en="Post Methods" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Process Path Pre" config_id="A780BB99FA284EAF9F5B9EFF6458A220">
+  <property __name="label" en="Pre Methods" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ContentTypeExportRel" config_id="86F71424DF0841B4B98D5D01B5DA4AB9">
+  <property __name="label" en="Export Settings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ContentTypeView" config_id="6A03B57CE50E400CA1BB3E95A28F10A1">
+  <property __name="label" en="Views" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_DocumentLifeCycleState" config_id="F500238AD4EC41808BB224D757D1C751">
+  <property __name="label" en="Life Cycle States" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ElementType" config_id="3E940746ED5F485B895B66319E8EFCF6">
+  <property __name="label" en="Elements" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="FavoriteMustViewBy" config_id="9C0A58576B8D4201911E13CD6F5C212F">
+  <property __name="label" en="Must View By" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_LocalStyleDefinition" config_id="13722B7C01334E72AAE6B8B15C63FEBA">
+  <property __name="label" en="Local Style Definition" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Manufacturer Manf Part" config_id="BFBBCDE7E0E5429485E875025E4266FE">
+  <property __name="label" en="Manufacturer Parts" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Allowed Permission" config_id="5EE97A61442B4391A5EDB676274A16C6">
+  <property __name="label" en="Permissions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Allowed Workflow" config_id="CA30A1ADE4CB40A3ACE53D46CC53E7BE">
+  <property __name="label" en="Workflows" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Can Add" config_id="BAE8089456F74B3BBC793A473E581FC6">
+  <property __name="label" en="Can Add" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Client Event" config_id="5D9124E259EE402BBBBECA7634CE5A0E">
+  <property __name="label" en="Client Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="DiscussionTemplate" config_id="FF6424D2A2B24FB880FF4C145E7C0FB4">
+  <property __name="label" en="Secure Social" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Implements" config_id="213280C3F9B4472F9AC54A5128B6E47D">
+  <property __name="label" en="Implements" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Inherited Server Events" config_id="D1971EB2FD5F4C34A5DAD78DC5B6D02E">
+  <property __name="label" en="Inherited Server Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Item Action" config_id="96C4009D4CB54A56A236139E90E3FE48">
+  <property __name="label" en="Actions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Item Report" config_id="C0351BDEAEC04B4F9542F787D8FE8BE5">
+  <property __name="label" en="Reports" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ItemType Life Cycle" config_id="313684B5E6FB4E71B1469CD26E41EC98">
+  <property __name="label" en="Life Cycles" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ItemType_xPropertyDefinition" config_id="C33FA51314F34B239D38F18622ACB59E">
+  <property __name="label" en="xProperties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ITPresentationConfiguration" config_id="873D53F2396B49AE8A055CE41A70E0CD">
+  <property __name="label" en="Client Style" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Morphae" config_id="49DF321A41344E69A990901ECBB91E50">
+  <property __name="label" en="Poly Sources" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Property" config_id="D98433ED30FF48CDA8D2A84E846EC2DF">
+  <property __name="label" en="Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="RelationshipType" config_id="0387FDF536AC4D18AF37CBF03DC53DBA">
+  <property __name="label" en="RelationshipTypes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Server Event" config_id="E07AD7930CA54CC989DF0437608AF35F">
+  <property __name="label" en="Server Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="TOC Access" config_id="ADBF7775FD244855B3F605DB83E475BE">
+  <property __name="label" en="TOC Access" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="TOC View" config_id="75015B6FDAA847E29DCC9EA1CD9EA5F9">
+  <property __name="label" en="TOC View" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="View" config_id="8A40526E17E8449EA67698FDD3BEB374">
+  <property __name="label" en="Views" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="xItemTypeAllowedProperty" config_id="6F6897DF2110457094CFC642E9C607AF">
+  <property __name="label" en="Allowed xProperties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Alias" config_id="C9D16426CE034B28800C661FE90FB345">
+  <property __name="label" en="Aliases" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ReadPriority" config_id="91A2E44144344CEA8A2CBCA06C1CE4C5">
+  <property __name="label" en="Read Vaults" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Relationship Grid Event" config_id="D4051D4EE4A64EEFA4B661E5F6E325D1">
+  <property __name="label" en="Grid Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Relationship View" config_id="E066B5A2985144F98922A0F1239444CA">
+  <property __name="label" en="Relationship  View" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="DatabaseUpgradePatch" config_id="188A89EF71984EF8829095BDCCE91081">
+  <property __name="label" en="Applied DB Patches" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part Alternate" config_id="A06CE2E9D07542DB9883CAF20BB22B11">
+  <property __name="label" en="Alternates" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part AML" config_id="56595520EC8A4EAB9B6D80A617F5D6AA">
+  <property __name="label" en="AML" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part BOM" config_id="159C6D88795B4A86864420863466F728">
+  <property __name="label" en="BOM" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part CAD" config_id="C65FB7DC8C3A4EFC97A6EE8196C0B448">
+  <property __name="label" en="CAD Documents" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part Changes" config_id="199974B1330640319AD3A39569359E7B">
+  <property __name="label" en="Changes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part Document" config_id="09CBB0294FAB477AA7300906DC035462">
+  <property __name="label" en="Documents" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part Goal" config_id="024A379F7F5C466C8AE23042E2CB60AB">
+  <property __name="label" en="Goals" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Part MultiLevel BOM" config_id="567E4149FBF74DACA0B0C4C9B1E79A3B">
+  <property __name="label" en="BOM Structure" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_ColumnMapping" config_id="57DD4D9D3EA640BAB8F59D6D47DCF751">
+  <property __name="label" en="Column Mapping" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_TabularViewColumn" config_id="D5AA538EFE2C44A9920CCA136621FD3C">
+  <property __name="label" en="Columns" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_TabularViewHeaderRows" config_id="AC4BEC3467CD4E6C8E790B5DA45C552F">
+  <property __name="label" en="Additional Header Rows" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_TabularViewTree" config_id="CBBA7381F2A34455A465340D4ADEB4F1">
+  <property __name="label" en="Tree" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Access_ItemClassification" config_id="FF2004260B83457E9B8811143381039F">
+  <property __name="label" en="Access" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="mpo_MassPromotionRecord" config_id="4186BD8CAD4B48BFA5F9FC34098A2CE7">
+  <property __name="label" en="Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="BOM Instance" config_id="C9C5E2E1B9F34CBFACCDD4FA2E8BCE35">
+  <property __name="label" en="Instances" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="BOM Substitute" config_id="CF5878AAFD39441FAB5A908E0D34C800">
+  <property __name="label" en="Substitutes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="effs_Part_BOM_expression" config_id="73C7BFB916D841EC8E619CBDB6D478D2">
+  <property __name="label" en="Effectivity" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="State EMail" config_id="A1C04F0A132240808082FF73CD35DBEF">
+  <property __name="label" en="State E-Mail" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="State Notification" config_id="B660D634F8AE4ED1AB58FA24FD05A250">
+  <property __name="label" en="State Notification" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="effs_scope_itemtype" config_id="0E4557855C1346B384275F28D3440AEF">
+  <property __name="label" en="Effectivity Scope ItemType" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="effs_scope_variable" config_id="47C1C053755E46848F00F29764180E86">
+  <property __name="label" en="Effectivity Variables" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Dashboard Chart" config_id="C27412FE0DF5476B9C9CE0C153F5AA22">
+  <property __name="label" en="Dashboard Chart" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_PropertyBinding" config_id="61EDD4D940A54914B005210557B93194">
+  <property __name="label" en="Property Bindings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionTaskHandlerError" config_id="794335F7FF3E4A8187069C574825C4C0">
+  <property __name="label" en="Event Handler Errors" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_ColumnDefinition" config_id="4B695675D9CB444A8BBACBEE5DC2EF49">
+  <property __name="label" en="Column Definition" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_LocalStyle" config_id="F295D21123544C81B88EBDC226391932">
+  <property __name="label" en="Local Style" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_QueryDefinitionParameterMap" config_id="2C4429EF139F4CC69C0E49A6F79074F3">
+  <property __name="label" en="Parameter Maps" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_TreeRowDefinition" config_id="893310582DFE412D88D9CA7FD4A3A7FE">
+  <property __name="label" en="Tree Row Definition" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="rb_TreeRowReference" config_id="7BD97F10602348A2894E25CB61514BA2">
+  <property __name="label" en="Tree Row Reference" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Dashboard Widget Template Prop" config_id="C53ACBDD1F614D7989C46FD673E0EA1F">
+  <property __name="label" en="Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_GraphViewConnector" config_id="CC79DC561B834096A513EC91F4AB0E47">
+  <property __name="label" en="Connectors" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_GraphViewItemType" config_id="B89FF4B72E364FDDA9B28E3362FFC8C1">
+  <property __name="label" en="Item Types" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_GraphViewNode" config_id="A53868D0B8E446A0B3ACAAF65ED3A8A1">
+  <property __name="label" en="Nodes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_GVDefaultCard" config_id="6901210911A646CB9E1943C0D05EA4DC">
+  <property __name="label" en="Default View Cards" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CommandBarSectionDependency" config_id="63D0C69394184DFAB585312A1F0C4EBB">
+  <property __name="label" en="Command Bar Section Dependency" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CommandBarSectionItem" config_id="C49509AC3F0F43DBAD560FD6268AA769">
+  <property __name="label" en="Command Bar Item" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="fr_RepType_Characteristic" config_id="BDFD746609DA4BEC99A16C58BBF09C05">
+  <property __name="label" en="Characteristic" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="fr_SupportedFileType" config_id="82C7137588C541DF9BF9FEC4E27ED34E">
+  <property __name="label" en="Supported File Type" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Access_PropertyValue" config_id="76C1E40147DE4DD2AAD629593E1518B2">
+  <property __name="label" en="Access" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template Assignment" config_id="A0D137DDD4484250BF5323E37BD3C225">
+  <property __name="label" en="Assignments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template EMail" config_id="77DF00235A4049A48D5C6A50A4682E5D">
+  <property __name="label" en="Notifications" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template Method" config_id="C3BC3A50ED2C4BC7AC4DCA04AC48057F">
+  <property __name="label" en="Server Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template Task" config_id="67F33A3C251747AA9A10214787BECFBE">
+  <property __name="label" en="Tasks" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template Transition" config_id="9E7CA03EE66B41ADB85DC2A9733E6ADF">
+  <property __name="label" en="Promotions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Template Variable" config_id="921950E061FD4604BE8C89E9976CBB7D">
+  <property __name="label" en="Variables" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Map Path" config_id="8077764B09654665A5F862266D4F6FAE">
+  <property __name="label" en="Paths" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="fr_RepresentationFile" config_id="B4DBC6589F5C4864B829C28AA73C5A95">
+  <property __name="label" en="Representation File" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ContentTypeGridLayout" config_id="713FDFE48C2A47EE81677F0E2E4C6CA0">
+  <property __name="label" en="CMF Grid Layout" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Core_GlobalLayout" config_id="6633BEBADCF94742B33E1E8CD19C3B63">
+  <property __name="label" en="General Settings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Core_ItemGridLayout" config_id="4FF79AAD4D58441FAFD1D2CA2D190E5B">
+  <property __name="label" en="Item Grid Layout" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Core_RelGridLayout" config_id="F8582FF6DBAA41A1977D5E2B3DB8786D">
+  <property __name="label" en="Relationship Grid Layout" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Core_SearchCountModeException" config_id="5E87C84B0FFF4EBD96DF60C845EB96C1">
+  <property __name="label" en="Search count mode exceptions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CoreSearchGridEnabledEditing" config_id="17B91D12A7D446CD914A996684A22B45">
+  <property __name="label" en="Edit in Search Grid" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SelfServiceReportSettings" config_id="1387D7066E3E4C228B38F82178E3537D">
+  <property __name="label" en="Self-Service Report Settings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SSVC_Preferences" config_id="8DA9DB45DE8946E383CE507E126BFEA6">
+  <property __name="label" en="Secure Social" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cws_ItemTypeReference" config_id="DFCF049B91504EF9939DB0DA376C9378">
+  <property __name="label" en="ItemType References" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cws_MethodReference" config_id="BC693A5FB9944C9E88A7530B0406A6C0">
+  <property __name="label" en="Method References" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="fr_Representation" config_id="D118B38457DB4E57A8660CF2CCA13122">
+  <property __name="label" en="Representation" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Located" config_id="C0753BF9614B4184989A3E12791250C9">
+  <property __name="label" en="Located" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="PresentationCommand" config_id="A8254DD8667844AEA089BA2CA2526ABE">
+  <property __name="label" en="Presentation Command " zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="PresentationCommandBarSection" config_id="927A359382DB4277A51CC16145B948BB">
+  <property __name="label" en="Command Bar Section" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Task Value" config_id="579877E00D244DA8A1CE95215BBFFEB2">
+  <property __name="label" en="Activity Task Values" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Variable Value" config_id="41F4BEB598464C9F915E12ECAFCEE145">
+  <property __name="label" en="Activity Variable Values" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECN Affected Item" config_id="F4D1981E96394280878D2C7C61F62298">
+  <property __name="label" en="Affected Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECN ECR" config_id="585A79D78E694392AC5C3D45BA791FF6">
+  <property __name="label" en="ECRs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ECN File" config_id="0597768411A848718E7338CDBA154830">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="PR File" config_id="DC162595090D457294B9CB6E459630C9">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cui_ControlCommandBarItem" config_id="58BBFECBF8D04437B84247A5C973B5BD">
+  <property __name="label" en="cui_ControlCommandBarItem" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Transition Distribution" config_id="3C51DE7A7B74465EAFC9EB6382F20369">
+  <property __name="label" en="Transition Distribution" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Configurable Grid Event" config_id="649E3F99C39049E69B9AE1BFFC264A0A">
+  <property __name="label" en="Grid Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ConversionServerPriority" config_id="F42266E589534DAC9723184A515D2553">
+  <property __name="label" en="Conversion Server Priority" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ReplicationRule" config_id="57818E6574E346AF80E90F65EE4E4CB8">
+  <property __name="label" en="Replication Rule" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ElementAllowedPermission" config_id="4C35DAFED27744CEB6BCABD95EA18947">
+  <property __name="label" en="Allowed Permissions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ElementBinding" config_id="ED1D38253F4C41A1BD1CA45FE30F691B">
+  <property __name="label" en="Binding" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_PropertyType" config_id="CA6BA5277AA74A8BAA6068328F261D1D">
+  <property __name="label" en="Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="mp_MacCondition" config_id="778177DF8748472B876C474EB2143A4A">
+  <property __name="label" en="Rules" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="mp_MacPolicyControlledType" config_id="7F9A0E0C001142EC80EEA59FA33608B0">
+  <property __name="label" en="Applied To" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="mp_MacPolicyExemptIdentity" config_id="325A94B1AD514D1892081C38620A365E">
+  <property __name="label" en="Exempt Identities" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Dashboard Widget" config_id="3EC0EA2EF454400BB3AC44FA13EC0A8A">
+  <property __name="label" en="Dashboard Widgets" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Assignment" config_id="C92F589A534241B09EBD4FE0ECD903E2">
+  <property __name="label" en="Assignments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity EMail" config_id="5B9EC188C193425D86A05FA772EBC5E3">
+  <property __name="label" en="Notifications" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Method" config_id="A9A7E355BD8141478B32BEB2E6140098">
+  <property __name="label" en="Server Events" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Task" config_id="3A4758DC9DE14F98BB3D1837D9921639">
+  <property __name="label" en="Tasks" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Transition" config_id="3E46C9AD080046799D337215EE063C6B">
+  <property __name="label" en="Promotions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Activity Variable" config_id="6A688F84FB7B48EDBFDA7C9C053EAFFE">
+  <property __name="label" en="Variables" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Process Path" config_id="2A18C4ED7C05419591766276B388B485">
+  <property __name="label" en="Paths" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Map Path Post" config_id="E399ED2801A94149B40C5788FE260B86">
+  <property __name="label" en="Post Methods" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Map Path Pre" config_id="0DA90A3171434AD38569A4B33DDE8A0E">
+  <property __name="label" en="Pre Methods" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ComputedProperty" config_id="BAA3A142A4EE4C70929050B63E2A0691">
+  <property __name="label" en="Computed Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_PropertyAllowedPermission" config_id="A9A723AD1D284F358FF70CC848AEB983">
+  <property __name="label" en="Allowed Permissions" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Vendor Part" config_id="D7F2AAA8A14041888BAF4C8EE702C08E">
+  <property __name="label" en="Parts" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SelfServiceReportFeatured" config_id="D36E717B22DF49EE94C1B0515089EEEE">
+  <property __name="label" en="Featured Settings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_ConnectorTypeProperty" config_id="BDC3D866CB5245378FDBC90326857938">
+  <property __name="label" en="Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ReplicationRuleFileType" config_id="7F31C5CA282E4F4F9FE750D7B98CA714">
+  <property __name="label" en="File Types" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ReplicationRuleTargetVault" config_id="D37AE0EF8ADA4FE3B72F7B8AE4A11853">
+  <property __name="label" en="Target Vaults" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="RunReportByUser" config_id="479D74194E674D70A9F3FC35CC2717CF">
+  <property __name="label" en="Report Runs By User" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SelfServiceReportSharedWith" config_id="60717005153341B79EF9935A68D9A67D">
+  <property __name="label" en="Shared With" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cws_EndpointConfiguration" config_id="8142F3634BAB40DBBFF28BE3D4EFF120">
+  <property __name="label" en="Endpoint Configurations" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Life Cycle State" config_id="63D1EF1C149B4A05A75B4FDE0E027ACD">
+  <property __name="label" en="State" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Life Cycle Transition" config_id="49C8B38BCE7040E69B0F3E8EFE055002">
+  <property __name="label" en="Transition" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_NodeTypeProperty" config_id="4A894ECEFA44441C855D4FB2B37A6A15">
+  <property __name="label" en="Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="PreferenceTabTypes" config_id="F88481D78E1F4851BC8BDB25BCB7C4ED">
+  <property __name="label" en="Preference Tab Types" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Map Activity" config_id="02AD70C867FE416599D884032226ECC6">
+  <property __name="label" en="Activities" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Workflow Map Variable" config_id="2191DD1541404EBFB23F64E116F9B69C">
+  <property __name="label" en="Process Variables" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ExportToExcelViewConfig" config_id="262557FC1464464ABE8BB7990F75E886">
+  <property __name="label" en="View Configuration" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SystemEventHandler" config_id="6F481B46293145D09FF3647C81F8330D">
+  <property __name="label" en="System Event Handlers" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_AdditionalPropertyType" config_id="4AF382CC96DE4045B0A540C19E4D5EBC">
+  <property __name="label" en="Additional Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express DCO Affected Item" config_id="9DED2FCF54214D27B5064640E4C680A9">
+  <property __name="label" en="Affected Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express DCO File" config_id="1BA59C03671A4995AF09622CE182E089">
+  <property __name="label" en="Attachments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express DCO Signoff" config_id="63F1DDC3F8A7467CA6330BD4116CBB66">
+  <property __name="label" en="SignOffs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Document Changes" config_id="D18F556A7D98451DAC54233F6820EC4D">
+  <property __name="label" en="Changes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Document File" config_id="73C333E4E4174DD39DF3444ED344F805">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="FileGroup File" config_id="61AB880887B040C7B971880A3DC8CB4B">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="xClass" config_id="56126C3B125841FD9E52B8CF6928F4BA">
+  <property __name="label" en="xClass" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="xClassificationTree_ItemType" config_id="4C14BED36B0E42738301EF1477186777">
+  <property __name="label" en="Item Types" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Affected Item Property" config_id="833C0037D08E405B8A28EF74E53E9475">
+  <property __name="label" en="Affected Item Properties" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Affected Item Relationship" config_id="B0DB929ED5F34994944ADEDA81B9EA15">
+  <property __name="label" en="Affected Relationships" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="FeedTemplate" config_id="23F0422A22DB4C77AF8FA982A9B4D692">
+  <property __name="label" en="Feed Template" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Access" config_id="385D22BE07F64985A7895EDBB611E10F">
+  <property __name="label" en="Access" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO Affected Item" config_id="8B9701922C2848E08B72C40877883ADF">
+  <property __name="label" en="Affected Item" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO EDR" config_id="ABDB18C0E6C3420D820E676BDAE539C9">
+  <property __name="label" en="EDRs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO EDR Grouping" config_id="3E0840AC5B0E41E4903D82765358D058">
+  <property __name="label" en="EDRs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO File" config_id="7F4905A431504A04B5894567E94443A4">
+  <property __name="label" en="Attachments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO Impact Matrix" config_id="1A6269964DD94DEA98E530E391EF3395">
+  <property __name="label" en="Impact Matrix" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express ECO Signoff" config_id="C5121F4CF8174DD7AED3AB967E9BDDC5">
+  <property __name="label" en="SignOffs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Team Identity" config_id="ECD7C1A4E4464658A99C24B6154F0B15">
+  <property __name="label" en="Team Members" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="dr_FamilyElement" config_id="8A8FA405BA8745BD95F3D0E6095A8971">
+  <property __name="label" en="Family Element" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="dr_FamilyEventHandler" config_id="785EA10127964BD9AE034C6D2BC615F4">
+  <property __name="label" en="Event Handlers" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="dr_UI_RelationshipFamily" config_id="E15616D4B788428F831B702B6223FDA6">
+  <property __name="label" en="Derived Relationships" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CAD Changes" config_id="D6400AB252214DEBB68D9E6A4D2A78D2">
+  <property __name="label" en="Changes" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CAD Parent" config_id="8AC9ABD5EB5549A19772C501BF787446">
+  <property __name="label" en="Parents" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CAD Part" config_id="7B6A83878B184D86A09472D856219D81">
+  <property __name="label" en="Parts" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CAD Structure" config_id="70A43676987743D9B82A1751A314C2C8">
+  <property __name="label" en="Structure" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="CADFiles" config_id="6D93CB6029D141C1998CD833EAA1A0C0">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_TabularViewColumnGroups" config_id="329BF2C8C947428D8D89464384BA0247">
+  <property __name="label" en="Groups" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="ac_PolicyAccessAttrDefinition" config_id="4F830D02985048DB9FCD3FB1D7674CAE">
+  <property __name="label" en="Attribute Queries" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="cmf_ComputedPropertyDependency" config_id="0BB2EF414FA442589BCC46BD56B5FAFD">
+  <property __name="label" en="Dependencies" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Search Criteria" config_id="5B86E53360B2405E80BFAC04751A0D47">
+  <property __name="label" en="Search Criteria" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="tp_Stylesheet" config_id="125B2DF9D4AC49FAA3450C3A747E65AF">
+  <property __name="label" en="Stylesheet" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="tp_XmlSchemaElement" config_id="B7F29097ECBF443ABF9F6A3293FD7E53">
+  <property __name="label" en="Xml Schema Element" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="tp_XmlSchemaOutputSetting" config_id="789FF867073D423DBEAF1933CA9B2673">
+  <property __name="label" en="Output Settings" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Model" config_id="7FD8A5BA8C214C2BB42937DB6F941B69">
+  <property __name="label" en="Models" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="gn_NodeViewTemplate" config_id="CFFCB055AD8C4C49916FA64183F34786">
+  <property __name="label" en="View Cards" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express EDR Affected Item" config_id="BDC7043615714C1C84E8D79C6373D0D2">
+  <property __name="label" en="Affected Items" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express EDR File" config_id="B5EA7411F9DF468791A902C4BC8D9F8E">
+  <property __name="label" en="Attachments" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Express EDR Signoff" config_id="8197AD188B78479FA2C949B67791DA1C">
+  <property __name="label" en="SignOffs" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="State Distribution" config_id="72AA38D95002437BAB6548F2DB62BD5E">
+  <property __name="label" en="State Distribution" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Message Acknowledgement" config_id="085863E3137E4B35BBAC8F1D2B697750">
+  <property __name="label" en="Message Acknowledgement" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="SQL Dependencies" config_id="9E4A395367A04C4695E8B2854260B986">
+  <property __name="label" en="Dependencies" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Manufacturer Part File" config_id="F33F4AD7071B4308B5BFBCCBD2C09786">
+  <property __name="label" en="Files" zc="" />
+ </Item>
+ <Item type="RelationshipType" keyed_name="Manufacturer Part Part" config_id="D0FA19C33EAE481BB31068304D4CF729">
+  <property __name="label" en="Related Parts" zc="" />
+ </Item>
+</export>

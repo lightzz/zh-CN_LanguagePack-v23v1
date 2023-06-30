@@ -1,0 +1,11 @@
+﻿<export>
+ <Item type="Grid Column" keyed_name="08CD4BA957AE4E6B973BA7B7882AA826" config_id="08CD4BA957AE4E6B973BA7B7882AA826">
+  <property __name="label" en="ItemType" zc="" />
+ </Item>
+ <Item type="Grid Column" keyed_name="0C2E70B07F0B4A4F87A2D727B9A27709" config_id="0C2E70B07F0B4A4F87A2D727B9A27709">
+  <property __name="label" en="State" zc="" />
+ </Item>
+ <Item type="Grid Column" keyed_name="6F1044FB2D5C4E369A4F9124FD589976" config_id="6F1044FB2D5C4E369A4F9124FD589976">
+  <property __name="label" en="Life Cycle Map" zc="" />
+ </Item>
+</export>

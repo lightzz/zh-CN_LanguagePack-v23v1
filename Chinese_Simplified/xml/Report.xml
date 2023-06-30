@@ -1,0 +1,11 @@
+﻿<export>
+ <Item type="Report" keyed_name="Report Manager" config_id="3BE0B6D8DD76436C83A1FAEB18A9E1A7">
+  <property __name="label" en="Report Manager" zc="" />
+ </Item>
+ <Item type="Report" keyed_name="Item Access Report" config_id="4466DA427F4E4E8293E627192320AA9B">
+  <property __name="label" en="Item Access Report" zc="" />
+ </Item>
+ <Item type="Report" keyed_name="Workflow Process History" config_id="57B7C712E6A64B0C85C652B6E870064C">
+  <property __name="label" en="Workflow Process History" zc="" />
+ </Item>
+</export>
