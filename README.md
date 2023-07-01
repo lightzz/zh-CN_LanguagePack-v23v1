@@ -12,24 +12,30 @@
 前四个变量用于创建语言和区域设置以及使用解决方案升级工具进行任何其他 AML 更改。
 
 SERVER_URL = 用于连接到 Aras Innovator 的基本 URL
-             示例：默认安装中的 http://localhost/InnovatorServer
-             确保 URL 中不包含 /Client http://localhost/InnovatorServer/Client
+                示例：默认安装中的 http://localhost/InnovatorServer
+                确保 URL 中不包含 /Client http://localhost/InnovatorServer/Client
+
 DATABASE_ID = 这是 Aras Innovator 用于识别 Aras Innovator 数据库的 ID。
-              该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 (id="InnovatorSolutions")
+                该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 (id="InnovatorSolutions")
+
 INNOVATOR_LOGIN = 这是管理登录名，将用于创建语言和区域设置项以及进行必要的 AML 更改。
-                 新安装应该只使用“root”。
+                    新安装应该只使用“root”。
+
 INNOVATOR_PASSWORD = 这是管理登录的密码，将用于创建语言和区域设置项以及进行必要的 AML 更改。
-                     “root”的默认密码是“innovator”
+                    “root”的默认密码是“innovator”
 
 
 最后四个变量用于使用语言包管理实用程序导入语言值。
    
 DB_SERVER = 安装 Aras Innovator 数据库的 SQL Server 实例的名称。
-             该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （服务器=“localhost”）
+            该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （服务器=“localhost”）
+
 DATABASE_NAME = SQL Server 中 Aras Innovator 数据库的名称。
-                 该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （数据库=“InnovatorSolutions”）
+                该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （数据库=“InnovatorSolutions”）
+
 SQL_LOGIN = 分配给 SQL Server 中 Aras Innovator 数据库的 innovator 用户的登录名。
-             该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （uid=“innovator”）
+            该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 （uid=“innovator”）
+
 SQL_PASSWORD = 分配给 SQL Server 中 Aras Innovator 数据库的 innovator 用户的登录密码。
                 该值可以在 Aras Innovator InnovatorServerConfig.xml 的 DB-connection 标记中找到。 (pwd=“innovator”)
 
